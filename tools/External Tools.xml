@@ -1,0 +1,23 @@
+<toolSet name="External Tools">
+  <tool name="mysql" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mysql" />
+      <option name="PARAMETERS" value="-u&quot;lno&quot; -p&quot;lTrapok)1&quot; lno -e&quot;DELETE FROM venue WHERE 0 AND id &gt; 2; DELETE FROM band WHERE 0 AND id &gt; 2;&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="rebuild asset laravel gulp" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/gulp" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/var/www/ediui" />
+    </exec>
+  </tool>
+  <tool name="truncate cvcpath reports" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mysql" />
+      <option name="PARAMETERS" value="-uadmin -padmin revenuemasters_cvc -e &quot;TRUNCATE TABLE reports&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
