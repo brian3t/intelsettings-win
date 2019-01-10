@@ -44,6 +44,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
+  <action id="EditorMatchBrace" />
   <action id="EditorStartNewLine" />
   <action id="Exit">
     <keyboard-shortcut first-keystroke="ctrl q" />
@@ -78,6 +79,10 @@
   </action>
   <action id="Refresh">
     <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift alt x" />
