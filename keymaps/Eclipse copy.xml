@@ -21,6 +21,7 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt m" />
     <keyboard-shortcut first-keystroke="shift ctrl alt k" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -51,7 +52,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
   <action id="FindNext">
-    <keyboard-shortcut first-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="GotoDeclaration">
