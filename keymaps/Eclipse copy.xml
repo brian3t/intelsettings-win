@@ -13,6 +13,8 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl alt x" />
   </action>
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="CallHierarchy" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
@@ -38,6 +40,8 @@
   </action>
   <action id="Console.TableResult.MaximizeEditingCell" />
   <action id="ContextHelp" />
+  <action id="Debugger.EditArrayFilter" />
+  <action id="Debugger.EditCustomField" />
   <action id="Diagram.DeselectAll" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditorCompleteStatement">
@@ -62,6 +66,9 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="alt e" />
@@ -98,8 +105,6 @@
   </action>
   <action id="ShowUmlDiagramPopup" />
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="ctrl f2" />
-    <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="SwitchApply">
@@ -117,9 +122,15 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="shift ctrl f11" />
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+  </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
