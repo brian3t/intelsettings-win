@@ -31,6 +31,10 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Console.Open">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -43,6 +47,8 @@
     <keyboard-shortcut first-keystroke="alt f7" />
   </action>
   <action id="ContextHelp" />
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction" />
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Diagram.DeselectAll" />
