@@ -23,17 +23,12 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt m" />
     <keyboard-shortcut first-keystroke="shift ctrl alt k" />
-    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl f4" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
-  </action>
-  <action id="Console.Open">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
-    <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
@@ -43,12 +38,6 @@
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="Console.TableResult.MaximizeEditingCell" />
-  <action id="Console.TableResult.NavigateExportedAction">
-    <keyboard-shortcut first-keystroke="alt f7" />
-  </action>
-  <action id="ContextHelp" />
-  <action id="CopyPaths" />
-  <action id="DatabaseView.CopyDdlAction" />
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Diagram.DeselectAll" />
@@ -57,7 +46,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
-  <action id="EditorMatchBrace" />
   <action id="EditorStartNewLine" />
   <action id="Exit">
     <keyboard-shortcut first-keystroke="ctrl q" />
@@ -66,22 +54,12 @@
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
   <action id="FindNext">
+    <keyboard-shortcut first-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="f3" />
-  </action>
-  <action id="FindPrevious">
-    <keyboard-shortcut first-keystroke="shift ctrl k" />
-    <keyboard-shortcut first-keystroke="shift f3" />
-  </action>
-  <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="alt f7" />
   </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="f4" />
-  </action>
-  <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="ctrl l" />
-    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="f2" />
@@ -107,11 +85,6 @@
   <action id="Refresh">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
-  <action id="Replace">
-    <keyboard-shortcut first-keystroke="ctrl f" />
-    <keyboard-shortcut first-keystroke="shift ctrl p" />
-    <keyboard-shortcut first-keystroke="ctrl r" />
-  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift alt x" />
     <keyboard-shortcut first-keystroke="shift f10" />
@@ -121,9 +94,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="ShowUmlDiagramPopup" />
-  <action id="Stop">
-    <keyboard-shortcut first-keystroke="f1" />
-  </action>
+  <action id="Stop" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
@@ -140,7 +111,6 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="ToggleBookmark">
-    <keyboard-shortcut first-keystroke="shift ctrl f11" />
     <keyboard-shortcut first-keystroke="ctrl f2" />
   </action>
   <action id="TypeHierarchy" />
