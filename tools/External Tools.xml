@@ -13,11 +13,18 @@
       <option name="WORKING_DIRECTORY" value="/var/www/ediui" />
     </exec>
   </tool>
-  <tool name="truncate cvcpath reports" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="truncate cvcpath reports" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="mysql" />
       <option name="PARAMETERS" value="-uadmin -padmin revenuemasters_cvc -e &quot;TRUNCATE TABLE reports&quot;" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="del rctc ie511" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Android/Sdk/platform-tools/adb" />
+      <option name="PARAMETERS" value="shell pm uninstall com.RCTC.IE511" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Android/Sdk/platform-tools" />
     </exec>
   </tool>
 </toolSet>
