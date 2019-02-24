@@ -27,4 +27,11 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/Android/Sdk/platform-tools" />
     </exec>
   </tool>
+  <tool name="uninstall cpn android" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Android/Sdk/platform-tools/adb" />
+      <option name="PARAMETERS" value="shell pm uninstall com.mediabeef.carpoolnow" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
