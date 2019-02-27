@@ -1,3 +1,6 @@
 <code_scheme name="Default" version="173">
   <option name="RIGHT_MARGIN" value="150" />
+  <PHPCodeStyleSettings>
+    <option name="SPACE_AFTER_UNARY_NOT" value="true" />
+  </PHPCodeStyleSettings>
 </code_scheme>
