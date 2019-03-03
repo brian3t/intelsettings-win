@@ -20,5 +20,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="mwcapi@server" uuid="f3d0e072-253a-4c1d-89de-bee077293bfc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://server.local:5432/test</jdbc-url>
+    </data-source>
   </component>
 </application>
