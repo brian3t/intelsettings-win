@@ -55,6 +55,9 @@
   <action id="FileChooser.ShowHiddens">
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -83,7 +86,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl space" />
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
-  <action id="Refresh">
+  <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Run">
@@ -91,6 +94,7 @@
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="RunToCursor" />
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
@@ -113,6 +117,7 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
     <keyboard-shortcut first-keystroke="ctrl f2" />
