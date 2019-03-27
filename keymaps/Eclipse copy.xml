@@ -13,6 +13,8 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl alt x" />
   </action>
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="CallHierarchy" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
@@ -21,6 +23,7 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt m" />
     <keyboard-shortcut first-keystroke="shift ctrl alt k" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -36,11 +39,20 @@
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="Console.TableResult.MaximizeEditingCell" />
+  <action id="ContextHelp" />
+  <action id="Debugger.EditArrayFilter" />
+  <action id="Debugger.EditCustomField" />
   <action id="Diagram.DeselectAll" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <mouse-shortcut keystroke="control button142" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="EditorStartNewLine" />
   <action id="Exit">
@@ -49,13 +61,18 @@
   <action id="FileChooser.ShowHiddens">
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="FindNext">
-    <keyboard-shortcut first-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="alt e" />
@@ -75,7 +92,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl space" />
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
-  <action id="Refresh">
+  <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Run">
@@ -83,13 +100,13 @@
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="RunToCursor" />
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="ShowUmlDiagramPopup" />
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="ctrl f2" />
-    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
@@ -106,9 +123,16 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="TodoViewGroupByFlattenPackage" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="shift ctrl f11" />
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+  </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
