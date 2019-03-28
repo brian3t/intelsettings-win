@@ -1,9 +1,0 @@
-<templateSet group="PHP">
-  <template name="isss" value="isset($_GET['$END$']) ? $_GET[''] : null;" description="null covalescence" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="PHP" value="true" />
-      <option name="PHP Comment" value="false" />
-      <option name="PHP String Literal" value="false" />
-    </context>
-  </template>
-</templateSet>
