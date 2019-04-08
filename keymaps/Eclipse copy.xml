@@ -50,9 +50,11 @@
   </action>
   <action id="EditorDecreaseFontSize">
     <mouse-shortcut keystroke="control button142" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
   <action id="EditorIncreaseFontSize">
     <mouse-shortcut keystroke="control button143" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="EditorStartNewLine" />
   <action id="Exit">
