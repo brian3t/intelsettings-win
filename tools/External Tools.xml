@@ -41,4 +41,11 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/Android/Sdk/platform-tools" />
     </exec>
   </tool>
+  <tool name="chmod git before cdv prepare" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="chmod" />
+      <option name="PARAMETERS" value=" -R 777 /var/www/mwcog/platforms/android/assets/www/.git" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
