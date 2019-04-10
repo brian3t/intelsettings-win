@@ -48,4 +48,18 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="move trigger to ppmh" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="touch" />
+      <option name="PARAMETERS" value=" rmedi_trigger.txt" />
+      <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/ppmh/trigger/" />
+    </exec>
+  </tool>
+  <tool name="reset importer" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/soft/utility/rev/reset_importer.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/soft/utility/rev" />
+    </exec>
+  </tool>
 </toolSet>
