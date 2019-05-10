@@ -69,4 +69,11 @@
       <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/ubmc/trigger/" />
     </exec>
   </tool>
+  <tool name="move trigger to sbhny" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="touch" />
+      <option name="PARAMETERS" value=" rmedi_trigger.txt" />
+      <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/sbhny/trigger/" />
+    </exec>
+  </tool>
 </toolSet>
