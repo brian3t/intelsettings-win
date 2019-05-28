@@ -4,7 +4,9 @@
       <mapping pattern=".phtml" type="HTML" />
       <mapping pattern=".env_prod" type="PLAIN_TEXT" />
       <mapping pattern="dot-env" type="PLAIN_TEXT" />
+      <mapping ext="himg" type="PLAIN_TEXT" />
       <mapping ext="gradle_old" type="PLAIN_TEXT" />
+      <mapping ext="ini_multi" type="PLAIN_TEXT" />
       <mapping ext="arr" type="PLAIN_TEXT" />
       <mapping ext="vmd" type="XML" />
     </extensionMap>
