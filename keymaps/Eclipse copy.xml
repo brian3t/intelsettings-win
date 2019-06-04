@@ -43,6 +43,11 @@
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
   <action id="ContextHelp" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift alt d" />
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Diagram.DeselectAll" />
