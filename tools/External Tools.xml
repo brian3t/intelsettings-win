@@ -24,7 +24,7 @@
     <exec>
       <option name="COMMAND" value="$USER_HOME$/Android/Sdk/platform-tools/adb" />
       <option name="PARAMETERS" value="shell pm uninstall com.RCTC.IE511" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Android/Sdk/platform-tools" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/tri/Android/Sdk/platform-tools" />
     </exec>
   </tool>
   <tool name="uninstall cpn android" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
@@ -38,7 +38,7 @@
     <exec>
       <option name="COMMAND" value="$USER_HOME$/Android/Sdk/platform-tools/adb" />
       <option name="PARAMETERS" value="shell pm uninstall com.mediabeef.mwcog" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Android/Sdk/platform-tools" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/tri/Android/Sdk/platform-tools" />
     </exec>
   </tool>
   <tool name="chmod git before cdv prepare" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
@@ -59,7 +59,7 @@
     <exec>
       <option name="COMMAND" value="$USER_HOME$/soft/utility/rev/reset_importer.sh" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/soft/utility/rev" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/tri/soft/utility/rev" />
     </exec>
   </tool>
   <tool name="move trigger to ubmc" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
