@@ -9,6 +9,7 @@
       <mapping ext="gradle_old" type="PLAIN_TEXT" />
       <mapping ext="arr" type="PLAIN_TEXT" />
       <mapping ext="ini_multi" type="PLAIN_TEXT" />
+      <mapping ext="ini_ppmh" type="PLAIN_TEXT" />
       <mapping ext="vmd" type="XML" />
     </extensionMap>
   </component>
