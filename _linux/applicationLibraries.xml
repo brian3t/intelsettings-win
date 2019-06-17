@@ -20,6 +20,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/lodash" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="activesupport (v5.2.0, ruby-2.5.1-p57) [gem]">
       <CLASSES>
         <root url="file:///var/lib/gems/2.5.0/gems/activesupport-5.2.0/lib" />
