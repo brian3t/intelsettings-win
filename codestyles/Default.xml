@@ -7,4 +7,7 @@
   <PHPCodeStyleSettings>
     <option name="SPACE_AFTER_UNARY_NOT" value="true" />
   </PHPCodeStyleSettings>
+  <codeStyleSettings language="HTML">
+    <option name="RIGHT_MARGIN" value="200" />
+  </codeStyleSettings>
 </code_scheme>
