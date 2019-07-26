@@ -1,4 +1,7 @@
 <application>
+  <component name="LangManager">
+    <option name="languageName" />
+  </component>
   <component name="LessonStateBase">
     <option name="myMap">
       <map>
