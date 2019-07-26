@@ -1,32 +1,21 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern=".phtml" type="HTML" />
-      <mapping pattern="band_noimg" type="PLAIN_TEXT" />
       <mapping pattern="ansible_hosts" type="PLAIN_TEXT" />
-      <mapping pattern="dot-env" type="PLAIN_TEXT" />
       <mapping pattern="h5bp" type="PLAIN_TEXT" />
       <mapping pattern=".env_prod" type="PLAIN_TEXT" />
-      <mapping ext="ini_multi0627" type="PLAIN_TEXT" />
-      <mapping ext="zpl" type="PLAIN_TEXT" />
-      <mapping ext="arr" type="PLAIN_TEXT" />
-      <mapping ext="ini_ppmh" type="PLAIN_TEXT" />
-      <mapping ext="graph" type="PLAIN_TEXT" />
+      <mapping pattern="dot-env" type="PLAIN_TEXT" />
+      <mapping pattern="band_noimg" type="PLAIN_TEXT" />
       <mapping ext="himg" type="PLAIN_TEXT" />
       <mapping ext="gradle_old" type="PLAIN_TEXT" />
+      <mapping ext="zpl" type="PLAIN_TEXT" />
+      <mapping ext="graph" type="PLAIN_TEXT" />
+      <mapping ext="arr" type="PLAIN_TEXT" />
       <mapping ext="ini_multi" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="ini_multi0627" type="PLAIN_TEXT" />
+      <mapping ext="ini_ppmh" type="PLAIN_TEXT" />
       <mapping ext="vmd" type="XML" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
-      <removed_mapping ext="makefile" approved="true" type="textmate" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="snakefile" approved="true" type="textmate" />
       <mapping ext="jinja" type="YAML_EX" />
     </extensionMap>
   </component>
