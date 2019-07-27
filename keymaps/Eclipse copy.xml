@@ -5,13 +5,9 @@
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
   </action>
-  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
     <keyboard-shortcut first-keystroke="ctrl f5" />
-  </action>
-  <action id="ActivateServicesToolWindow">
-    <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
