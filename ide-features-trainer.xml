@@ -8,9 +8,9 @@
         <entry key="Actions" value="PASSED" />
         <entry key="Basic Completion" value="PASSED" />
         <entry key="Class Search" value="NOT_PASSED" />
-        <entry key="CodeAssistance.CodeFormatting" value="NOT_PASSED" />
+        <entry key="CodeAssistance.CodeFormatting" value="PASSED" />
         <entry key="CodeAssistance.EditorCodingAssistance" value="NOT_PASSED" />
-        <entry key="CodeAssistance.ParameterInfo" value="NOT_PASSED" />
+        <entry key="CodeAssistance.ParameterInfo" value="PASSED" />
         <entry key="CodeAssistance.QuickPopups" value="NOT_PASSED" />
         <entry key="Collapse" value="PASSED" />
         <entry key="Comment Line" value="PASSED" />
@@ -44,7 +44,7 @@
         <entry key="Refactoring Menu" value="NOT_PASSED" />
         <entry key="Refactorings.ExtractMethod" value="PASSED" />
         <entry key="Refactorings.ExtractVariable/Field" value="PASSED" />
-        <entry key="Refactorings.RefactoringBasics" value="NOT_PASSED" />
+        <entry key="Refactorings.RefactoringBasics" value="PASSED" />
         <entry key="Refactorings.Rename" value="PASSED" />
         <entry key="Rename" value="NOT_PASSED" />
         <entry key="Select" value="PASSED" />
@@ -93,6 +93,30 @@
             <StatisticData>
               <option name="state" value="PASSED" />
               <option name="timestamp" value="46196" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="CodeAssistance.CodeFormatting">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="11303" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="CodeAssistance.ParameterInfo">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="24458" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="CodeAssistance.QuickPopups">
+          <value>
+            <StatisticData>
+              <option name="state" value="STARTED" />
+              <option name="timestamp" value="1564546513394" />
             </StatisticData>
           </value>
         </entry>
@@ -179,8 +203,8 @@
         <entry key="Refactorings.RefactoringBasics">
           <value>
             <StatisticData>
-              <option name="state" value="STARTED" />
-              <option name="timestamp" value="1564545726354" />
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="729652" />
             </StatisticData>
           </value>
         </entry>
