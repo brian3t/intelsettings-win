@@ -7,4 +7,10 @@
   <PHPCodeStyleSettings>
     <option name="SPACE_AFTER_UNARY_NOT" value="true" />
   </PHPCodeStyleSettings>
+  <codeStyleSettings language="HTML">
+    <option name="RIGHT_MARGIN" value="200" />
+  </codeStyleSettings>
+  <codeStyleSettings language="JavaScript">
+    <option name="SPACE_BEFORE_METHOD_LBRACE" value="false" />
+  </codeStyleSettings>
 </code_scheme>

@@ -1,10 +1,5 @@
 <application>
   <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
-    <pattern pattern="\btodob\b.*" />
-    <filter name="Todo Brian">
-      <pattern index="2" />
-    </filter>
+    <pattern pattern="\b(todo|fixme)\b.*" />
   </component>
 </application>
