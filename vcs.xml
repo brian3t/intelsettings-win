@@ -146,6 +146,10 @@
           <option name="url" value="https://evssw.visualstudio.com/Mobe3/_git/mobe3Svc" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="evssw@vs-ssh.visualstudio.com:v3/evssw/Mobe3/mobe3Svc" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\www" />

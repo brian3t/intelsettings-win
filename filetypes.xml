@@ -19,9 +19,9 @@
       <mapping ext="ini_multi" type="PLAIN_TEXT" />
       <mapping ext="ini_ppmh" type="PLAIN_TEXT" />
       <mapping ext="ini_multi0627" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <mapping ext="vmd" type="XML" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
