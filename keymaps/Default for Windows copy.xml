@@ -11,4 +11,11 @@
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl add" />
   </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
+  <action id="TypeHierarchy" />
 </keymap>
