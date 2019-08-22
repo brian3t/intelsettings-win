@@ -11,6 +11,7 @@
   </action>
   <action id="Console.Open">
     <keyboard-shortcut first-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
@@ -55,4 +56,5 @@
   <action id="ReplaceInPath" />
   <action id="RunDashboard.ShowConfigurations" />
   <action id="TypeHierarchy" />
+  <action id="UpdateRunningApplication" />
 </keymap>
