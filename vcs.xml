@@ -158,6 +158,10 @@
           <option name="url" value="https://evssw.visualstudio.com/Mobe3/_git/gitFlowDemo" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/brian3t/demo_gitflow.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\var\www" />
