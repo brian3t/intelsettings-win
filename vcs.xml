@@ -154,9 +154,13 @@
           <option name="url" value="https://evssw.visualstudio.com/Mobe3/_git/Mobe3WebWMS" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://evssw.visualstudio.com/Mobe3/_git/gitFlowDemo" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="/var/www" />
+    <option name="cloneParentDir" value="C:\var\www" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
