@@ -1,4 +1,7 @@
 <keymap version="1" name="Default for Windows copy" parent="$default">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl w" />
