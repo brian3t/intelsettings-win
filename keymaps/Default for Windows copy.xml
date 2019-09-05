@@ -1,4 +1,7 @@
 <keymap version="1" name="Default for Windows copy" parent="$default">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -17,6 +20,11 @@
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
     <mouse-shortcut keystroke="control button142" />
   </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorDuplicate" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
     <mouse-shortcut keystroke="control button143" />
