@@ -28,5 +28,14 @@
         <property name="appName" value="DataGrip" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="PROD" uuid="83d15f2b-b0ca-4010-899e-f26fdbca4f02">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://evs-azure-sql1</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
   </component>
 </application>
