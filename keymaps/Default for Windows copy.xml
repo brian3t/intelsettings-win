@@ -1,14 +1,13 @@
 <keymap version="1" name="Default for Windows copy" parent="$default">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt 0" />
   </action>
   <action id="ChangesView.ShelveSilently" />
-  <action id="ChooseDebugConfiguration">
-    <keyboard-shortcut first-keystroke="shift f5" />
-  </action>
-  <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="f5" />
-  </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -22,17 +21,14 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
-  <action id="CopyElement" />
-  <action id="DatabaseView.CopyTable" />
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="shift f5" />
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
     <mouse-shortcut keystroke="control button142" />
   </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDuplicate" />
@@ -58,7 +54,6 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
-  <action id="Graph.ApplyCurrentLayout" />
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
   <action id="LocalHistory.ShowHistory">
@@ -74,9 +69,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
   <action id="ReplaceInPath" />
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="f5" />
-  </action>
   <action id="RunDashboard.ShowConfigurations" />
   <action id="TypeHierarchy" />
   <action id="UpdateRunningApplication" />
