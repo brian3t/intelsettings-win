@@ -59,5 +59,26 @@
         <property name="applicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="qa1" uuid="63aaec56-5fff-40f1-9542-c8b154bcfe53">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://evs-azure-qa1</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="wsah mni" uuid="39fad445-ede7-4aa4-9d7e-07853e36b4ac">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://evs-azure-sqlmi-1.85b604f6c142.database.windows.net:1433</jdbc-url>
+      <driver-properties>
+        <property name="loginTimeout" value="30" />
+        <property name="hostNameInCertificate" value="*.database.windows.net" />
+        <property name="applicationName" value="DataGrip" />
+        <property name="trustServerCertificate" value="true" />
+      </driver-properties>
+    </data-source>
   </component>
 </application>
