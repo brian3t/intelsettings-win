@@ -24,6 +24,12 @@
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift ctrl alt t" />
   </action>
+  <action id="CopyElement" />
+  <action id="DatabaseView.CopyTable" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
@@ -57,6 +63,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="Graph.ApplyCurrentLayout" />
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
   <action id="LocalHistory.ShowHistory">
@@ -71,6 +78,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
   <action id="ReplaceInPath" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="RunDashboard.ShowConfigurations" />
   <action id="TypeHierarchy" />
   <action id="UpdateRunningApplication" />
