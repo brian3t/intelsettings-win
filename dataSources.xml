@@ -28,7 +28,7 @@
         <property name="appName" value="DataGrip" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo.database.windows.net" uuid="608bdd01-32a6-4542-b5ab-8e973f02edf7">
+    <data-source source="LOCAL" name="mobe3repo btp" uuid="608bdd01-32a6-4542-b5ab-8e973f02edf7">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
@@ -56,6 +56,19 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://EVS-AZURE-DEV05;database=umcloud</jdbc-url>
       <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="mobe3repo" uuid="41c741ad-3895-4cc4-b117-011370028aab">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
+      <driver-properties>
+        <property name="loginTimeout" value="30" />
+        <property name="trustServerCertificate" value="false" />
+        <property name="encrypt" value="true" />
+        <property name="hostNameInCertificate" value="*.database.windows.net" />
         <property name="applicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
