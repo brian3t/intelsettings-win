@@ -1,11 +1,11 @@
 <keymap version="1" name="Default for Windows copy" parent="$default">
-  <action id="$Redo">
-    <keyboard-shortcut first-keystroke="shift ctrl z" />
-    <keyboard-shortcut first-keystroke="shift alt back_space" />
-    <keyboard-shortcut first-keystroke="ctrl y" />
-  </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt 0" />
+  </action>
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="CloseActiveTab">
@@ -21,23 +21,21 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift ctrl alt t" />
   </action>
-  <action id="CopyElement" />
-  <action id="DatabaseView.CopyTable" />
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="shift f9" />
-    <keyboard-shortcut first-keystroke="shift f5" />
-  </action>
-  <action id="Editor Redo">
-    <keyboard-shortcut first-keystroke="ctrl y" />
-  </action>
+  <action id="Debugger.EditArrayFilter" />
+  <action id="Debugger.EditCustomField" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
     <mouse-shortcut keystroke="control button142" />
   </action>
   <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="EditorDuplicate" />
@@ -57,13 +55,19 @@
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
-  <action id="Graph.ApplyCurrentLayout" />
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="GotoNextError" />
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
   <action id="LocalHistory.ShowHistory">
@@ -78,11 +82,17 @@
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
   <action id="ReplaceInPath" />
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="shift f10" />
-    <keyboard-shortcut first-keystroke="f5" />
-  </action>
   <action id="RunDashboard.ShowConfigurations" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="Stop" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="ctrl f2" />
+  </action>
   <action id="TypeHierarchy" />
   <action id="UpdateRunningApplication" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
 </keymap>
