@@ -28,9 +28,6 @@
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift ctrl alt t" />
   </action>
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="shift f5" />
-  </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="EditorDecreaseFontSize">
@@ -41,7 +38,9 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
-  <action id="EditorDuplicate" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
     <mouse-shortcut keystroke="control button143" />
@@ -57,6 +56,9 @@
   </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
   </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
