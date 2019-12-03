@@ -90,6 +90,7 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
+  <action id="Move" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="Refactorings.QuickListPopupAction">
@@ -99,6 +100,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
   <action id="ReplaceInPath" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="f5" />
@@ -106,6 +110,9 @@
   <action id="RunDashboard.ShowConfigurations" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="f1" />
