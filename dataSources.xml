@@ -14,9 +14,6 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://EVS-AZURE-SQL0;database=mccall891test</jdbc-url>
-      <driver-properties>
-        <property name="applicationName" value="DataGrip" />
-      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="mssql @local" uuid="8d323e39-22c8-4c96-82c8-c4e143a91cc0">
       <driver-ref>sqlserver.ms</driver-ref>
@@ -28,7 +25,7 @@
         <property name="appName" value="DataGrip" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo.database.windows.net" uuid="608bdd01-32a6-4542-b5ab-8e973f02edf7">
+    <data-source source="LOCAL" name="mobe3repo btp" uuid="608bdd01-32a6-4542-b5ab-8e973f02edf7">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
@@ -55,9 +52,6 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://EVS-AZURE-DEV05;database=umcloud</jdbc-url>
-      <driver-properties>
-        <property name="applicationName" value="DataGrip" />
-      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="mobe3repo umcloud" uuid="7e716d2a-c3b1-4e28-8fc8-2458c2eaba93">
       <driver-ref>azure.ms</driver-ref>
