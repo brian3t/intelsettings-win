@@ -14,15 +14,30 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://EVS-AZURE-SQL0;database=mccall891test</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="mssql @local" uuid="8d323e39-22c8-4c96-82c8-c4e143a91cc0">
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://localhost:1433;database=mccall891</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://localhost:1433</jdbc-url>
       <driver-properties>
-        <property name="applicationName" value="DataGrip" />
         <property name="appName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="mobe3repo btp" uuid="608bdd01-32a6-4542-b5ab-8e973f02edf7">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
+      <driver-properties>
+        <property name="loginTimeout" value="30" />
+        <property name="trustServerCertificate" value="false" />
+        <property name="encrypt" value="true" />
+        <property name="hostNameInCertificate" value="*.database.windows.net" />
+        <property name="applicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="PROD" uuid="105a0123-aab9-47dc-bb63-93bec9aa1837">
@@ -30,12 +45,18 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://EVS-AZURE-SQL1;database=mccall891</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="DEV05" uuid="b8a98dc2-2ea8-451e-84fd-fcb27e3405b6">
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://EVS-AZURE-DEV05;database=umcloud</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="mobe3repo umcloud" uuid="7e716d2a-c3b1-4e28-8fc8-2458c2eaba93">
       <driver-ref>azure.ms</driver-ref>
