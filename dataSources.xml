@@ -19,23 +19,16 @@
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://localhost:1433</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://localhost:1433;database=btp887test</jdbc-url>
       <driver-properties>
         <property name="appName" value="DataGrip" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo.database.windows.net" uuid="608bdd01-32a6-4542-b5ab-8e973f02edf7">
+    <data-source source="LOCAL" name="mobe3repo peco" uuid="608bdd01-32a6-4542-b5ab-8e973f02edf7">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
-      <driver-properties>
-        <property name="loginTimeout" value="30" />
-        <property name="trustServerCertificate" value="false" />
-        <property name="encrypt" value="true" />
-        <property name="hostNameInCertificate" value="*.database.windows.net" />
-        <property name="applicationName" value="DataGrip" />
-      </driver-properties>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="PROD" uuid="105a0123-aab9-47dc-bb63-93bec9aa1837">
       <driver-ref>sqlserver.ms</driver-ref>
