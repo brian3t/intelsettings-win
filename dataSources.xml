@@ -80,7 +80,7 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=peco326repo</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo btp PROD" uuid="a3b36408-99bd-495e-93e9-a050d0589191">
+    <data-source source="LOCAL" name="mobe3repo btp PROD" uuid="05770eba-3d91-4133-b06d-acde06155f80">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
