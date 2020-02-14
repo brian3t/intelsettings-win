@@ -32,7 +32,7 @@
       </csv-format>
       <csv-format name="Comma-separated (CSV)" id="Comma-separated (CSV)_id">
         <data>
-          <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+          <record-format prefix="" suffix="" nullText="" quotationPolicy="always" valueSeparator="," recordSeparator=",">
             <quotation>
               <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
               <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
@@ -43,6 +43,22 @@
           <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
             <quotation>
               <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+              <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+            </quotation>
+          </record-format>
+        </header>
+      </csv-format>
+      <csv-format name="csv as IN filter" id="570ff2d8-b957-4476-ab0c-e895a51117b0">
+        <data>
+          <record-format prefix="" suffix="" nullText="" quotationPolicy="always" valueSeparator="," recordSeparator=",">
+            <quotation>
+              <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+            </quotation>
+          </record-format>
+        </data>
+        <header>
+          <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
+            <quotation>
               <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
             </quotation>
           </record-format>
