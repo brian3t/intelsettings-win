@@ -13,6 +13,7 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ChangesView.ShelveSilently" />
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -102,6 +103,9 @@
   <action id="Move" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
   <action id="Refactorings.QuickListPopupAction" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
@@ -126,6 +130,7 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ShowUmlDiagramPopup" />
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f6" />
   </action>
