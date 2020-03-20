@@ -92,5 +92,11 @@
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://hq-sql;database=mas500_btt</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="hq-sql PROD" uuid="321b02cb-16f0-44eb-88c1-13463b405e6f">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://hq-sql;database=mas500_app</jdbc-url>
+    </data-source>
   </component>
 </application>
