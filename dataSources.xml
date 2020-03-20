@@ -86,5 +86,11 @@
         <property name="appName" value="DataGrip" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="hq-sql Test" uuid="cd83b4ad-5586-4def-b757-24d3ec7a49fc">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://hq-sql;database=mas500_btt</jdbc-url>
+    </data-source>
   </component>
 </application>
