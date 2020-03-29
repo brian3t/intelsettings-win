@@ -87,7 +87,7 @@
     <exec>
       <option name="COMMAND" value="C:\Users\tri\AppData\Local\Android\Sdk\platform-tools\adb" />
       <option name="PARAMETERS" value="shell pm uninstall com.usvsolutions.livenout" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Android/Sdk/platform-tools" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/tri/AppData/Local/Android/Sdk/platform-tools" />
     </exec>
   </tool>
 </toolSet>
