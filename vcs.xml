@@ -186,6 +186,10 @@
           <option name="url" value="evssw@vs-ssh.visualstudio.com:v3/evssw/customers/btp887" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="evssw@vs-ssh.visualstudio.com:v3/evssw/customers/mccall891" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\www\customers" />
