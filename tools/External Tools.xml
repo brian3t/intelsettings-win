@@ -83,4 +83,11 @@
       <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/himg/trigger/" />
     </exec>
   </tool>
+  <tool name="del usv livenout" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\tri\AppData\Local\Android\Sdk\platform-tools\adb" />
+      <option name="PARAMETERS" value="shell pm uninstall com.usvsolutions.livenout" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/tri/AppData/Local/Android/Sdk/platform-tools" />
+    </exec>
+  </tool>
 </toolSet>
