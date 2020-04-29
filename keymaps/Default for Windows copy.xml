@@ -48,6 +48,9 @@
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="DatabaseView.CopyTable" />
+  <action id="DatabaseView.OpenDdlInConsole">
+    <keyboard-shortcut first-keystroke="shift alt b" />
+  </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
@@ -152,4 +155,5 @@
   <action id="UpdateRunningApplication" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
+  <action id="tasks.open.in.browser" />
 </keymap>
