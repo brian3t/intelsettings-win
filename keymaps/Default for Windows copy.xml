@@ -49,7 +49,6 @@
   <action id="CopyElement" />
   <action id="DatabaseView.CopyTable" />
   <action id="DatabaseView.OpenDdlInConsole">
-    <keyboard-shortcut first-keystroke="shift ctrl alt b" />
     <keyboard-shortcut first-keystroke="shift alt b" />
   </action>
   <action id="Debugger.EditArrayFilter" />
