@@ -29,9 +29,6 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://EVS-AZURE-SQL1;database=mccall891</jdbc-url>
-      <driver-properties>
-        <property name="applicationName" value="DataGrip" />
-      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="mobe3repo umcloud" uuid="7e716d2a-c3b1-4e28-8fc8-2458c2eaba93">
       <driver-ref>azure.ms</driver-ref>
