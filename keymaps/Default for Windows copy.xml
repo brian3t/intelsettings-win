@@ -41,6 +41,7 @@
   </action>
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift ctrl alt t" />
+    <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
@@ -156,4 +157,5 @@
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
   <action id="tasks.open.in.browser" />
+  <action id="tasks.switch" />
 </keymap>
