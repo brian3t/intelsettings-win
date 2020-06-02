@@ -75,13 +75,10 @@
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="dev05" uuid="a7e65b83-bd62-4b68-8108-d2fb76d26091">
-      <driver-ref>sqlserver.ms</driver-ref>
+      <driver-ref>sqlserver.jtds</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://evs-azure-dev05:1433;database=umcloud</jdbc-url>
-      <driver-properties>
-        <property name="appName" value="DataGrip" />
-      </driver-properties>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://evs-azure-dev05:1433/umcloud</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="hq-sql PROD" uuid="dbc2ac5b-9ec8-4d54-b03c-b8e8003a8e61">
       <driver-ref>sqlserver.ms</driver-ref>
