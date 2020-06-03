@@ -82,7 +82,7 @@
       <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="azure.ms">
-      <artifact name="SQL Server" use="true" version="7.4.1" />
+      <artifact name="SQL Server" use="true" version="8.2.2" />
       <option name="auto-sync" value="true" />
       <option name="send-app-info" value="false" />
       <option name="auto-commit" value="true" />
