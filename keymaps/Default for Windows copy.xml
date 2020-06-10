@@ -74,6 +74,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
     <mouse-shortcut keystroke="control button143" />
   </action>
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
@@ -114,9 +116,18 @@
   <action id="Move" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
+  <action id="QuickChangeScheme" />
   <action id="Refactorings.QuickListPopupAction" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
