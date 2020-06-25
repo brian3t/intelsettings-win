@@ -10,6 +10,7 @@
         <parameter-pattern value="%\w+" in-scripts="true" scope="JAVA,Python,PHP" predefined="%name" />
         <parameter-pattern value="\$\{([^\{\}]*)\}" in-scripts="true" predefined="${name}" />
         <parameter-pattern value="\$\(([^\)]+)\)" in-scripts="true" predefined="$(name)" />
+        <parameter-pattern value="(?&lt;=\W|\A):(\d+|[a-zA-Z_](?:\w|\.)*)(?=\W|\z)" scope="JAVA,kotlin,Groovy" predefined=":a.b.c" />
       </parameter-patterns>
     </text-mode>
     <csv-formats>
@@ -57,13 +58,6 @@
             </quotation>
           </record-format>
         </data>
-        <header>
-          <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="," recordSeparator="&#10;">
-            <quotation>
-              <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
-            </quotation>
-          </record-format>
-        </header>
       </csv-format>
     </csv-formats>
   </component>
