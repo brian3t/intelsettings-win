@@ -52,8 +52,15 @@
   <action id="DatabaseView.OpenDdlInConsole">
     <keyboard-shortcut first-keystroke="shift alt b" />
   </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
+  <action id="Debugger.EvaluateInConsole">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
@@ -107,6 +114,7 @@
   </action>
   <action id="GotoNextError" />
   <action id="GotoPreviousError" />
+  <action id="GotoSuperMethod" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
@@ -151,6 +159,9 @@
   <action id="RunDashboard.ShowConfigurations" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="ShowUmlDiagramPopup" />
   <action id="StepOver">
