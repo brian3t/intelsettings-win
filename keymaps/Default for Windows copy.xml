@@ -152,6 +152,9 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="ShowUmlDiagramPopup" />
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f6" />
