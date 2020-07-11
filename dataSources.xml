@@ -102,7 +102,7 @@
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://EVS-AZURE-QA1;database=wmsqa</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://EVS-AZURE-QA1;database=wmstest</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="mobe3repo mcc test" uuid="361147af-0d8d-4742-9f66-02ca720bebb0">
       <driver-ref>azure.ms</driver-ref>
