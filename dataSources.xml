@@ -59,23 +59,17 @@
         <property name="applicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo btp" uuid="ca3cf78b-de2c-4367-a6a8-4ec9b35ad9cd">
+    <data-source source="LOCAL" name="mobe3repo btp test" uuid="ca3cf78b-de2c-4367-a6a8-4ec9b35ad9cd">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo wsah" uuid="df990dfe-5f0b-451d-a240-a57b65b52738">
+    <data-source source="LOCAL" name="mobe3repo peco" uuid="df990dfe-5f0b-451d-a240-a57b65b52738">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="mobe3repo btp PROD" uuid="05770eba-3d91-4133-b06d-acde06155f80">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="dev05" uuid="a7e65b83-bd62-4b68-8108-d2fb76d26091">
       <driver-ref>sqlserver.ms</driver-ref>
