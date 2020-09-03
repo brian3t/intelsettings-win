@@ -5,7 +5,7 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="ActivateDatabaseToolWindow">
-    <keyboard-shortcut first-keystroke="alt 0" />
+    <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
@@ -165,6 +165,7 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="UpdateRunningApplication" />
+  <action id="Vcs.QuickListPopupAction" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
   <action id="tasks.open.in.browser" />
