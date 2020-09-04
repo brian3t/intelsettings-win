@@ -5,7 +5,6 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="ActivateDatabaseToolWindow">
-    <keyboard-shortcut first-keystroke="alt 0" />
     <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
   <action id="ActivateEventLogToolWindow">
