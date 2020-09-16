@@ -13,7 +13,7 @@
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://EVS-AZURE-SQL0</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://EVS-AZURE-SQL0;database=btp887test</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="mssql @local" uuid="8d323e39-22c8-4c96-82c8-c4e143a91cc0">
       <driver-ref>sqlserver.ms</driver-ref>
@@ -28,7 +28,10 @@
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://EVS-AZURE-SQL1</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://EVS-AZURE-SQL1;database=mccall891</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="mobe3repo umcloud" uuid="7e716d2a-c3b1-4e28-8fc8-2458c2eaba93">
       <driver-ref>azure.ms</driver-ref>
@@ -56,17 +59,11 @@
         <property name="applicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo btp" uuid="ca3cf78b-de2c-4367-a6a8-4ec9b35ad9cd">
+    <data-source source="LOCAL" name="mobe3repo wsah" uuid="df990dfe-5f0b-451d-a240-a57b65b52738">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="mobe3repo peco" uuid="df990dfe-5f0b-451d-a240-a57b65b52738">
-      <driver-ref>azure.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="dev05" uuid="a7e65b83-bd62-4b68-8108-d2fb76d26091">
       <driver-ref>sqlserver.ms</driver-ref>
@@ -93,7 +90,7 @@
       <driver-ref>sqlserver.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://EVS-AZURE-QA1</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://EVS-AZURE-QA1;database=wmstest</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="mobe3repo mcc test" uuid="361147af-0d8d-4742-9f66-02ca720bebb0">
       <driver-ref>azure.ms</driver-ref>
