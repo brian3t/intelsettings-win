@@ -59,7 +59,7 @@
         <property name="applicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo wsah" uuid="df990dfe-5f0b-451d-a240-a57b65b52738">
+    <data-source source="LOCAL" name="mobe3repo peco" uuid="df990dfe-5f0b-451d-a240-a57b65b52738">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
@@ -97,6 +97,12 @@
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
       <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=mccall891repo</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mobe3repo btp" uuid="ade79e80-b195-48ca-9030-b09b5111804a">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://mobe3repo.database.windows.net:1433;database=btp887repo</jdbc-url>
     </data-source>
   </component>
 </application>
