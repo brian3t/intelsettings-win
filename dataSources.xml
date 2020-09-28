@@ -59,7 +59,7 @@
         <property name="applicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="mobe3repo wsah" uuid="df990dfe-5f0b-451d-a240-a57b65b52738">
+    <data-source source="LOCAL" name="mobe3repo peco" uuid="df990dfe-5f0b-451d-a240-a57b65b52738">
       <driver-ref>azure.ms</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
@@ -73,12 +73,6 @@
       <driver-properties>
         <property name="appName" value="DataGrip" />
       </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="hq-sql PROD" uuid="dbc2ac5b-9ec8-4d54-b03c-b8e8003a8e61">
-      <driver-ref>sqlserver.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://hq-sql;database=mas500_app</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="hq-sql Test" uuid="65513f77-7a6e-4e6e-823f-38079a44019e">
       <driver-ref>sqlserver.ms</driver-ref>
