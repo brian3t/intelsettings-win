@@ -11,10 +11,6 @@
     <keyboard-shortcut first-keystroke="alt 8" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
-  <action id="ActivateFindToolWindow" />
-  <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="alt 3" />
-  </action>
   <action id="ActivateServicesToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
@@ -55,6 +51,10 @@
   <action id="DatabaseView.CopyTable" />
   <action id="DatabaseView.OpenDdlInConsole">
     <keyboard-shortcut first-keystroke="shift alt b" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
