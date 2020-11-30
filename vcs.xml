@@ -156,7 +156,7 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://evssw.visualstudio.com" />
-          <option name="userName" value="brian3t" />
+          <option name="userName" value="bnguyen@evssw.com" />
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="https://evssw.visualstudio.com/Mobe3/_git/Mobe3Reports" />
@@ -192,6 +192,10 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="evssw@vs-ssh.visualstudio.com:v3/evssw/Mobe3/PrintBot" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/brian3t/wagapi.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
