@@ -1,13 +1,12 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="cmd" type="Batch" />
       <mapping ext="meta" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping pattern="1106_btptest_spumpackutil_bkup" type="SQL" />
       <mapping pattern="spum_psl_nb" type="SQL" />
       <removed_mapping ext="bat" approved="true" type="Batch" />
-      <removed_mapping ext="cmd" approved="true" type="Cmd" />
+      <removed_mapping ext="cmd" approved="true" type="Batch" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
