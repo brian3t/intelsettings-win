@@ -1,6 +1,8 @@
 <code_scheme name="Default" version="173">
+  <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="RIGHT_MARGIN" value="150" />
-  <DB2CodeStyleSettings version="2">
+  <DB2CodeStyleSettings version="5">
+    <option name="USE_GENERAL_STYLE" value="false" />
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
@@ -12,7 +14,8 @@
     <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
     <option name="EXPR_CASE_WHEN_WRAP" value="false" />
   </DB2CodeStyleSettings>
-  <DerbyCodeStyleSettings version="2">
+  <DerbyCodeStyleSettings version="5">
+    <option name="USE_GENERAL_STYLE" value="false" />
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
@@ -24,7 +27,8 @@
     <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
     <option name="EXPR_CASE_WHEN_WRAP" value="false" />
   </DerbyCodeStyleSettings>
-  <H2CodeStyleSettings version="2">
+  <H2CodeStyleSettings version="5">
+    <option name="USE_GENERAL_STYLE" value="false" />
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
@@ -35,7 +39,8 @@
     <option name="ROUTINE_ARG_WRAP" value="2" />
     <option name="EXPR_CASE_WHEN_WRAP" value="false" />
   </H2CodeStyleSettings>
-  <HSQLCodeStyleSettings version="2">
+  <HSQLCodeStyleSettings version="5">
+    <option name="USE_GENERAL_STYLE" value="false" />
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
@@ -50,7 +55,8 @@
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="SPACE_AFTER_UNARY_NOT" value="true" />
   </JSCodeStyleSettings>
-  <MSSQLCodeStyleSettings version="2">
+  <MSSQLCodeStyleSettings version="5">
+    <option name="USE_GENERAL_STYLE" value="false" />
     <option name="QUERY_IN_ONE_STRING" value="3" />
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
@@ -65,7 +71,8 @@
     <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
     <option name="IMP_DECLARE_EL_WRAP" value="2" />
   </MSSQLCodeStyleSettings>
-  <MySQLCodeStyleSettings version="2">
+  <MySQLCodeStyleSettings version="5">
+    <option name="USE_GENERAL_STYLE" value="false" />
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
@@ -76,7 +83,8 @@
     <option name="ROUTINE_ARG_WRAP" value="2" />
     <option name="EXPR_CASE_WHEN_WRAP" value="false" />
   </MySQLCodeStyleSettings>
-  <OracleCodeStyleSettings version="2">
+  <OracleCodeStyleSettings version="5">
+    <option name="USE_GENERAL_STYLE" value="false" />
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
@@ -88,7 +96,8 @@
     <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
     <option name="EXPR_CASE_WHEN_WRAP" value="false" />
   </OracleCodeStyleSettings>
-  <PostgresCodeStyleSettings version="2">
+  <PostgresCodeStyleSettings version="5">
+    <option name="USE_GENERAL_STYLE" value="false" />
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
@@ -100,7 +109,8 @@
     <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
     <option name="EXPR_CASE_WHEN_WRAP" value="false" />
   </PostgresCodeStyleSettings>
-  <SQLiteCodeStyleSettings version="2">
+  <SQLiteCodeStyleSettings version="5">
+    <option name="USE_GENERAL_STYLE" value="false" />
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
@@ -111,7 +121,7 @@
     <option name="ROUTINE_ARG_WRAP" value="2" />
     <option name="EXPR_CASE_WHEN_WRAP" value="false" />
   </SQLiteCodeStyleSettings>
-  <SqlCodeStyleSettings version="2">
+  <SqlCodeStyleSettings version="5">
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
@@ -123,7 +133,8 @@
     <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
     <option name="EXPR_CASE_WHEN_WRAP" value="false" />
   </SqlCodeStyleSettings>
-  <SybaseCodeStyleSettings version="2">
+  <SybaseCodeStyleSettings version="5">
+    <option name="USE_GENERAL_STYLE" value="false" />
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
