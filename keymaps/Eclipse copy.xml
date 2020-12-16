@@ -5,10 +5,6 @@
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
   </action>
-  <action id="ActivateRunToolWindow">
-    <keyboard-shortcut first-keystroke="alt 4" />
-    <keyboard-shortcut first-keystroke="ctrl f5" />
-  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="ctrl alt x" />
@@ -114,6 +110,9 @@
   </action>
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl r" />
