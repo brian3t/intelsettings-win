@@ -67,6 +67,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="EditorStartNewLine" />
+  <action id="EditorTranspose">
+    <keyboard-shortcut first-keystroke="shift alt t" />
+  </action>
   <action id="Exit">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
@@ -126,7 +129,6 @@
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="shift alt s" />
-    <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
