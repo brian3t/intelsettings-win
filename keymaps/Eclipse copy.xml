@@ -65,11 +65,19 @@
     <mouse-shortcut keystroke="control button142" />
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
   <action id="EditorIncreaseFontSize">
     <mouse-shortcut keystroke="control button143" />
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="EditorStartNewLine" />
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift ctrl x" />
+    <keyboard-shortcut first-keystroke="shift ctrl y" />
+  </action>
   <action id="Exit">
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
@@ -126,6 +134,7 @@
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="RunToCursor" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="shift alt s" />
