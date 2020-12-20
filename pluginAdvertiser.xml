@@ -749,6 +749,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.liquid">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.lang.liquid" />
+              <option name="myPluginName" value="Liquid" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.litcoffee">
           <value>
             <plugin>
