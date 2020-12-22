@@ -90,4 +90,11 @@
       <option name="WORKING_DIRECTORY" value="C:/Users/tri/AppData/Local/Android/Sdk/platform-tools" />
     </exec>
   </tool>
+  <tool name="conductor cent" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files\nodejs\node.exe" />
+      <option name="PARAMETERS" value="conductor.js" />
+      <option name="WORKING_DIRECTORY" value="C:/www/mobe3svc/routes/cent021/integrations/x3/jobs" />
+    </exec>
+  </tool>
 </toolSet>
