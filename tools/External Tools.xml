@@ -1,0 +1,100 @@
+<toolSet name="External Tools">
+  <tool name="mysql" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mysql" />
+      <option name="PARAMETERS" value="-u&quot;lno&quot; -p&quot;lTrapok)1&quot; lno -e&quot;DELETE FROM venue WHERE 0 AND id &gt; 2; DELETE FROM band WHERE 0 AND id &gt; 2;&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="rebuild asset laravel gulp" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/gulp" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/var/www/ediui" />
+    </exec>
+  </tool>
+  <tool name="truncate cvcpath reports" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mysql" />
+      <option name="PARAMETERS" value="-uadmin -padmin revenuemasters_cvc -e &quot;TRUNCATE TABLE reports&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="del rctc ie511" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Android/Sdk/platform-tools/adb" />
+      <option name="PARAMETERS" value="shell pm uninstall com.RCTC.IE511" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/tri/Android/Sdk/platform-tools" />
+    </exec>
+  </tool>
+  <tool name="uninstall cpn android" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Android/Sdk/platform-tools/adb" />
+      <option name="PARAMETERS" value="shell pm uninstall com.mediabeef.carpoolnow" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="del mwcog" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Android/Sdk/platform-tools/adb" />
+      <option name="PARAMETERS" value="shell pm uninstall com.mediabeef.mwcog" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/tri/Android/Sdk/platform-tools" />
+    </exec>
+  </tool>
+  <tool name="chmod git before cdv prepare" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="chmod" />
+      <option name="PARAMETERS" value=" -R 777 /var/www/mwcog/platforms/android/assets/www/.git" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="move trigger to ppmh" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="touch" />
+      <option name="PARAMETERS" value=" rmedi_trigger.txt" />
+      <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/ppmh/trigger/" />
+    </exec>
+  </tool>
+  <tool name="reset importer" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/soft/utility/rev/reset_importer.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/tri/soft/utility/rev" />
+    </exec>
+  </tool>
+  <tool name="move trigger to ubmc" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="touch" />
+      <option name="PARAMETERS" value=" rmedi_trigger.txt" />
+      <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/ubmc/trigger/" />
+    </exec>
+  </tool>
+  <tool name="move trigger to sbhny" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="touch" />
+      <option name="PARAMETERS" value=" rmedi_trigger.txt" />
+      <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/sbhny/trigger/" />
+    </exec>
+  </tool>
+  <tool name="move trigger to himg" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="touch" />
+      <option name="PARAMETERS" value=" rmedi_trigger.txt" />
+      <option name="WORKING_DIRECTORY" value="/encrypted/sftp/rmedi/from_rmedi/himg/trigger/" />
+    </exec>
+  </tool>
+  <tool name="del usv livenout" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\tri\AppData\Local\Android\Sdk\platform-tools\adb" />
+      <option name="PARAMETERS" value="shell pm uninstall com.usvsolutions.livenout" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/tri/AppData/Local/Android/Sdk/platform-tools" />
+    </exec>
+  </tool>
+  <tool name="conductor cent" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files\nodejs\node.exe" />
+      <option name="PARAMETERS" value="conductor.js" />
+      <option name="WORKING_DIRECTORY" value="C:/www/mobe3svc/routes/cent021/integrations/x3/jobs" />
+    </exec>
+  </tool>
+</toolSet>
