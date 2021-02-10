@@ -76,8 +76,9 @@
       <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="azure.ms">
-      <artifact id="SQL Server" name="SQL Server" use="true" version="8.2.2" />
+      <artifact id="SQL Server" name="SQL Server" use="true" version="9.2.0" />
       <artifact id="Active Directory" name="Active Directory" use="true" version="1.6.6" />
+      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.8.1" />
       <option name="auto-sync" value="true" />
       <option name="send-app-info" value="false" />
       <option name="auto-commit" value="true" />
