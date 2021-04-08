@@ -37,7 +37,7 @@
   <action id="Console.TableResult.CloneRow" />
   <action id="Console.TableResult.EditFilterCriteria">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
-    <keyboard-shortcut first-keystroke="shift ctrl a" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
