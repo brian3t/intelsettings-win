@@ -9,7 +9,7 @@
                 <map>
                   <entry key="AntRunConfiguration">
                     <value>
-                      <FeaturePluginData displayName="Ant Target" pluginName="Ant" pluginId="AntSupport" />
+                      <FeaturePluginData displayName="Ant Target" pluginName="Ant" pluginId="AntSupport" bundled="true" />
                     </value>
                   </entry>
                   <entry key="Application">
