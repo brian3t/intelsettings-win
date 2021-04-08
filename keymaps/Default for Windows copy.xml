@@ -187,6 +187,7 @@
   <action id="Vcs.QuickListPopupAction" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
+  <action id="sql.SelectInDatabaseView" />
   <action id="tasks.open.in.browser" />
   <action id="tasks.switch" />
 </keymap>
