@@ -7,19 +7,9 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
-                  <entry key="AntRunConfiguration">
-                    <value>
-                      <FeaturePluginData displayName="Ant Target" pluginName="Ant" pluginId="AntSupport" bundled="true" />
-                    </value>
-                  </entry>
                   <entry key="Application">
                     <value>
                       <FeaturePluginData displayName="Application" pluginName="Java" pluginId="com.intellij.java" bundled="true" />
-                    </value>
-                  </entry>
-                  <entry key="BatchConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Batch" pluginName="Batch Scripts Support" pluginId="Batch Scripts Support" />
                     </value>
                   </entry>
                   <entry key="ChromiumRemoteDebugType">
@@ -42,29 +32,9 @@
                       <FeaturePluginData displayName="Database Script" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
                     </value>
                   </entry>
-                  <entry key="DjangoTestsConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Django tests" pluginName="Python" pluginId="Pythonid" />
-                    </value>
-                  </entry>
                   <entry key="FirefoxRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Firefox Remote" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
-                    </value>
-                  </entry>
-                  <entry key="GradleRunConfiguration">
-                    <value>
-                      <FeaturePluginData displayName="Gradle" pluginName="Gradle" pluginId="com.intellij.gradle" bundled="true" />
-                    </value>
-                  </entry>
-                  <entry key="GroovyScriptRunConfiguration">
-                    <value>
-                      <FeaturePluginData displayName="Groovy" pluginName="Groovy" pluginId="org.intellij.groovy" />
-                    </value>
-                  </entry>
-                  <entry key="HttpClient.HttpRequestRunConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="HTTP Request" pluginName="HTTP Client" pluginId="com.jetbrains.restClient" bundled="true" />
                     </value>
                   </entry>
                   <entry key="JarApplication">
@@ -77,11 +47,6 @@
                       <FeaturePluginData displayName="Java Scratch" pluginName="Java" pluginId="com.intellij.java" bundled="true" />
                     </value>
                   </entry>
-                  <entry key="JavaScriptNodeJsTraceType">
-                    <value>
-                      <FeaturePluginData displayName="Spy-js for Node.js" pluginName="Spy-js" pluginId="spy-js" />
-                    </value>
-                  </entry>
                   <entry key="JavaScriptTestRunnerJest">
                     <value>
                       <FeaturePluginData displayName="Jest" pluginName="JavaScript and TypeScript" pluginId="JavaScript" bundled="true" />
@@ -92,19 +57,9 @@
                       <FeaturePluginData displayName="Protractor" pluginName="JavaScript and TypeScript" pluginId="JavaScript" bundled="true" />
                     </value>
                   </entry>
-                  <entry key="JavaScriptTraceType">
-                    <value>
-                      <FeaturePluginData displayName="Spy-js" pluginName="Spy-js" pluginId="spy-js" />
-                    </value>
-                  </entry>
                   <entry key="JavascriptDebugType">
                     <value>
                       <FeaturePluginData displayName="JavaScript Debug" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
-                    </value>
-                  </entry>
-                  <entry key="MicronautRunConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Micronaut" pluginName="Micronaut" pluginId="com.intellij.micronaut" bundled="true" />
                     </value>
                   </entry>
                   <entry key="NodeJSConfigurationType">
@@ -125,11 +80,6 @@
                   <entry key="PHPUnitRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="PHPUnit" pluginName="PHP" pluginId="com.jetbrains.php" />
-                    </value>
-                  </entry>
-                  <entry key="PhoneGap">
-                    <value>
-                      <FeaturePluginData displayName="Cordova" pluginName="Cordova" pluginId="com.github.masahirosuzuka.PhoneGapIntelliJPlugin" />
                     </value>
                   </entry>
                   <entry key="PhpBuiltInWebServerConfigurationType">
@@ -157,36 +107,6 @@
                       <FeaturePluginData displayName="PHP Web Page" pluginName="PHP" pluginId="com.jetbrains.php" />
                     </value>
                   </entry>
-                  <entry key="PyRemoteDebugConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Python Debug Server" pluginName="Python" pluginId="Pythonid" />
-                    </value>
-                  </entry>
-                  <entry key="Python.AppEngineServer">
-                    <value>
-                      <FeaturePluginData displayName="App Engine server" pluginName="Pythonid" pluginId="Pythonid" />
-                    </value>
-                  </entry>
-                  <entry key="Python.DjangoServer">
-                    <value>
-                      <FeaturePluginData displayName="Django Server" pluginName="Python" pluginId="Pythonid" />
-                    </value>
-                  </entry>
-                  <entry key="Python.FlaskServer">
-                    <value>
-                      <FeaturePluginData displayName="Flask server" pluginName="Python" pluginId="Pythonid" />
-                    </value>
-                  </entry>
-                  <entry key="Python.PyramidServer">
-                    <value>
-                      <FeaturePluginData displayName="Pyramid server" pluginName="Python" pluginId="Pythonid" />
-                    </value>
-                  </entry>
-                  <entry key="PythonConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Python" pluginName="Python" pluginId="Pythonid" />
-                    </value>
-                  </entry>
                   <entry key="ReactNative">
                     <value>
                       <FeaturePluginData displayName="React Native" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
@@ -202,34 +122,14 @@
                       <FeaturePluginData displayName="Shell Script" pluginName="Shell Script" pluginId="com.jetbrains.sh" bundled="true" />
                     </value>
                   </entry>
-                  <entry key="SpaceRunConfiguration">
-                    <value>
-                      <FeaturePluginData displayName="Space Task" pluginName="Space" pluginId="com.jetbrains.space" bundled="true" />
-                    </value>
-                  </entry>
-                  <entry key="SwaggerCodegen">
-                    <value>
-                      <FeaturePluginData displayName="Swagger Codegen" pluginName="OpenAPI Specifications" pluginId="com.intellij.swagger" bundled="true" />
-                    </value>
-                  </entry>
                   <entry key="TSqltConfigurationType">
                     <value>
                       <FeaturePluginData displayName="tSQLt Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
                     </value>
                   </entry>
-                  <entry key="Tox">
-                    <value>
-                      <FeaturePluginData displayName="tox" pluginName="Python" pluginId="Pythonid" />
-                    </value>
-                  </entry>
                   <entry key="UtPlSqlConfigurationType">
                     <value>
                       <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
-                    </value>
-                  </entry>
-                  <entry key="XSLT">
-                    <value>
-                      <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" />
                     </value>
                   </entry>
                   <entry key="docker-deploy">
@@ -257,11 +157,6 @@
                       <FeaturePluginData displayName="Mocha" pluginName="Node.js" pluginId="NodeJS" bundled="true" />
                     </value>
                   </entry>
-                  <entry key="tests">
-                    <value>
-                      <FeaturePluginData displayName="Python tests" pluginName="Python" pluginId="Pythonid" />
-                    </value>
-                  </entry>
                 </map>
               </option>
             </FeaturePluginsList>
@@ -269,32 +164,7 @@
         </entry>
         <entry key="com.intellij.facetType">
           <value>
-            <FeaturePluginsList>
-              <option name="featureMap">
-                <map>
-                  <entry key="Python">
-                    <value>
-                      <FeaturePluginData displayName="Python" pluginName="Pythonid" pluginId="Pythonid" />
-                    </value>
-                  </entry>
-                  <entry key="buildout-python">
-                    <value>
-                      <FeaturePluginData displayName="Buildout Support" pluginName="Python" pluginId="Pythonid" />
-                    </value>
-                  </entry>
-                  <entry key="django">
-                    <value>
-                      <FeaturePluginData displayName="Django" pluginName="Python" pluginId="Pythonid" />
-                    </value>
-                  </entry>
-                  <entry key="google-appengine-python">
-                    <value>
-                      <FeaturePluginData displayName="Google App Engine (Python)" pluginName="Pythonid" pluginId="Pythonid" />
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </FeaturePluginsList>
+            <FeaturePluginsList />
           </value>
         </entry>
         <entry key="com.intellij.packaging.artifacts.ArtifactType">
@@ -305,16 +175,6 @@
                   <entry key="jar">
                     <value>
                       <FeaturePluginData displayName="JAR" pluginName="Java" pluginId="com.intellij.java" bundled="true" />
-                    </value>
-                  </entry>
-                  <entry key="javafx">
-                    <value>
-                      <FeaturePluginData displayName="JavaFx application" pluginName="JavaFX" pluginId="org.jetbrains.plugins.javaFX" />
-                    </value>
-                  </entry>
-                  <entry key="javafx-preloader">
-                    <value>
-                      <FeaturePluginData displayName="JavaFx preloader" pluginName="JavaFX" pluginId="org.jetbrains.plugins.javaFX" />
                     </value>
                   </entry>
                   <entry key="plain">
