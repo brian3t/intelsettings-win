@@ -37,7 +37,7 @@
   <action id="Console.TableResult.CloneRow" />
   <action id="Console.TableResult.EditFilterCriteria">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
-    <keyboard-shortcut first-keystroke="shift ctrl s" />
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
@@ -138,6 +138,9 @@
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
@@ -171,6 +174,9 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="ShowUmlDiagramPopup" />
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f6" />
@@ -187,7 +193,6 @@
   <action id="Vcs.QuickListPopupAction" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
-  <action id="sql.SelectInDatabaseView" />
   <action id="tasks.open.in.browser" />
   <action id="tasks.switch" />
 </keymap>

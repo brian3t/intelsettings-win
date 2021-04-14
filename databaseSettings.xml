@@ -1,6 +1,6 @@
 <application>
   <component name="DatabaseSettings" version="7">
-    <option name="page-size-updated-timestamp" value="1617892343898" />
+    <option name="page-size-updated-timestamp" value="1618329868157" />
     <option name="auto-transpose-mode" value="ONE_ROW" />
     <option name="warn-unsafe-query" value="false" />
     <text-mode>
@@ -12,7 +12,7 @@
         <parameter-pattern value="%\w+" in-scripts="true" scope="JAVA,Python,PHP" predefined="%name" />
         <parameter-pattern value="\$\{([^\{\}]*)\}" in-scripts="true" predefined="${name}" />
         <parameter-pattern value="\$\(([^\)]+)\)" in-scripts="true" predefined="$(name)" />
-        <parameter-pattern value="(?&lt;=\W|\A):(\d+|[a-zA-Z_](?:\w|\.)*)(?=\W|\z)" scope="JAVA,kotlin,Groovy" predefined=":a.b.c" />
+        <parameter-pattern value="(?&lt;=\W|\A):(\d+|[a-zA-Z_](?:\w|\.)*)(?=\W|\z)" scope="JAVA,kotlin,Groovy" />
       </parameter-patterns>
     </text-mode>
     <csv-formats>
