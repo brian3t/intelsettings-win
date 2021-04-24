@@ -127,11 +127,6 @@
                       <FeaturePluginData displayName="Remote JVM Debug" pluginName="Java" pluginId="com.intellij.java" bundled="true" />
                     </value>
                   </entry>
-                  <entry key="ShConfigurationType">
-                    <value>
-                      <FeaturePluginData displayName="Shell Script" pluginName="Shell Script" pluginId="com.jetbrains.sh" bundled="true" />
-                    </value>
-                  </entry>
                   <entry key="SwaggerCodegen">
                     <value>
                       <FeaturePluginData displayName="Swagger Codegen" pluginName="OpenAPI Specifications" pluginId="com.intellij.swagger" bundled="true" />
