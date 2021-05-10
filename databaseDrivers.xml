@@ -14,6 +14,7 @@
     <driver id="azure.ms">
       <artifact id="SQL Server" name="SQL Server" use="true" version="9.2.0" />
       <artifact id="Active Directory" name="Active Directory" use="true" version="1.6.6" />
+      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.8.1" />
     </driver>
     <driver id="mysql.8">
       <artifact />

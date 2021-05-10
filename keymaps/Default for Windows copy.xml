@@ -72,7 +72,6 @@
   </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
-    <mouse-shortcut keystroke="control button142" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -83,7 +82,6 @@
   </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
-    <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
@@ -137,6 +135,7 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="ctrl page_down" />
+    <mouse-shortcut keystroke="control button142" />
   </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
@@ -144,6 +143,7 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
+    <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="PublishGroup.Upload">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
