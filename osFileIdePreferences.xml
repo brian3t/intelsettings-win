@@ -1,0 +1,11 @@
+<application>
+  <component name="OSFileAssociationPreferences">
+    <option name="fileTypeNames">
+      <list>
+        <option value="Batch" />
+        <option value="Bat" />
+      </list>
+    </option>
+    <option name="ideLocationHash" value="1481C71AA835B334C01B4D696AFD9DD4" />
+  </component>
+</application>
