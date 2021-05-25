@@ -137,6 +137,11 @@
                       <FeaturePluginData displayName="Remote JVM Debug" pluginName="Java" pluginId="com.intellij.java" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="ShConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Shell Script" pluginName="Shell Script" pluginId="com.jetbrains.sh" bundled="true" />
+                    </value>
+                  </entry>
                   <entry key="SwaggerCodegen">
                     <value>
                       <FeaturePluginData displayName="Swagger Codegen" pluginName="OpenAPI Specifications" pluginId="com.intellij.swagger" bundled="true" />
@@ -175,6 +180,41 @@
                   <entry key="mocha-javascript-test-runner">
                     <value>
                       <FeaturePluginData displayName="Mocha" pluginName="Node.js" pluginId="NodeJS" bundled="true" />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FeaturePluginsList>
+          </value>
+        </entry>
+        <entry key="com.intellij.facetType">
+          <value>
+            <FeaturePluginsList>
+              <option name="featureMap">
+                <map>
+                  <entry key="kotlin-language">
+                    <value>
+                      <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FeaturePluginsList>
+          </value>
+        </entry>
+        <entry key="com.intellij.packaging.artifacts.ArtifactType">
+          <value>
+            <FeaturePluginsList>
+              <option name="featureMap">
+                <map>
+                  <entry key="jar">
+                    <value>
+                      <FeaturePluginData displayName="JAR" pluginName="Java" pluginId="com.intellij.java" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="plain">
+                    <value>
+                      <FeaturePluginData displayName="Other" pluginName="Java" pluginId="com.intellij.java" bundled="true" />
                     </value>
                   </entry>
                 </map>
