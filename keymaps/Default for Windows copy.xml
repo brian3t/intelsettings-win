@@ -11,6 +11,9 @@
     <keyboard-shortcut first-keystroke="alt 8" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
   <action id="ActivateServicesToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
