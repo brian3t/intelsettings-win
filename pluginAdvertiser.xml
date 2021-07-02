@@ -147,6 +147,41 @@
             </FeaturePluginsList>
           </value>
         </entry>
+        <entry key="com.intellij.facetType">
+          <value>
+            <FeaturePluginsList>
+              <option name="featureMap">
+                <map>
+                  <entry key="kotlin-language">
+                    <value>
+                      <FeaturePluginData displayName="Kotlin" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FeaturePluginsList>
+          </value>
+        </entry>
+        <entry key="com.intellij.packaging.artifacts.ArtifactType">
+          <value>
+            <FeaturePluginsList>
+              <option name="featureMap">
+                <map>
+                  <entry key="jar">
+                    <value>
+                      <FeaturePluginData displayName="JAR" pluginName="Java" pluginId="com.intellij.java" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="plain">
+                    <value>
+                      <FeaturePluginData displayName="Other" pluginName="Java" pluginId="com.intellij.java" bundled="true" />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FeaturePluginsList>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
