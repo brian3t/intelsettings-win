@@ -37,6 +37,11 @@
                       <FeaturePluginData displayName="Firefox Remote" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="HttpClient.HttpRequestRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="HTTP Request" pluginName="HTTP Client" pluginId="com.jetbrains.restClient" bundled="true" />
+                    </value>
+                  </entry>
                   <entry key="JarApplication">
                     <value>
                       <FeaturePluginData displayName="JAR Application" pluginName="Java" pluginId="com.intellij.java" bundled="true" />
@@ -137,6 +142,11 @@
                       <FeaturePluginData displayName="Shell Script" pluginName="Shell Script" pluginId="com.jetbrains.sh" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="SwaggerCodegen">
+                    <value>
+                      <FeaturePluginData displayName="Swagger Codegen" pluginName="OpenAPI Specifications" pluginId="com.intellij.swagger" bundled="true" />
+                    </value>
+                  </entry>
                   <entry key="TSqltConfigurationType">
                     <value>
                       <FeaturePluginData displayName="tSQLt Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
@@ -145,6 +155,11 @@
                   <entry key="UtPlSqlConfigurationType">
                     <value>
                       <FeaturePluginData displayName="utPLSQL Test" pluginName="Database Tools and SQL" pluginId="com.intellij.database" bundled="true" />
+                    </value>
+                  </entry>
+                  <entry key="XSLT">
+                    <value>
+                      <FeaturePluginData displayName="XSLT" pluginName="XPathView + XSLT" pluginId="XPathView" bundled="true" />
                     </value>
                   </entry>
                   <entry key="docker-deploy">
