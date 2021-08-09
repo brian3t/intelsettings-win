@@ -39,5 +39,10 @@
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
       </library>
     </driver>
+    <driver id="java.sql.Driver" name="fm jdbc" driver-class="com.filemaker.jdbc.Driver">
+      <library>
+        <url>file://C:/soft/fm17/fmjdbc.jar</url>
+      </library>
+    </driver>
   </component>
 </application>
