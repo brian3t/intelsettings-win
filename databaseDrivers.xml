@@ -6,7 +6,7 @@
     <driver id="sqlserver.ms">
       <artifact id="SQL Server" name="SQL Server" use="true" version="9.2.0" />
       <artifact id="Active Directory" name="Active Directory" use="true" version="1.6.6" />
-      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.8.1" />
+      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.10.1" />
     </driver>
     <driver id="sqlserver.jtds">
       <artifact />
@@ -15,7 +15,7 @@
     <driver id="azure.ms">
       <artifact id="SQL Server" name="SQL Server" use="true" version="9.2.0" />
       <artifact id="Active Directory" name="Active Directory" use="true" version="1.6.6" />
-      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.8.1" />
+      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.10.1" />
     </driver>
     <driver id="mysql.8">
       <artifact />
@@ -37,6 +37,11 @@
       <property name="enable_load_extension" value="true" />
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+      </library>
+    </driver>
+    <driver id="java.sql.Driver" name="fm jdbc" driver-class="com.filemaker.jdbc.Driver">
+      <library>
+        <url>file://C:/soft/fm17/fmjdbc.jar</url>
       </library>
     </driver>
   </component>
