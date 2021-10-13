@@ -41,6 +41,7 @@
   <action id="Console.TableResult.EditFilterCriteria">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
     <keyboard-shortcut first-keystroke="shift ctrl a" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
@@ -56,9 +57,6 @@
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="DatabaseView.CopyTable" />
-  <action id="DatabaseView.FilterAction">
-    <keyboard-shortcut first-keystroke="shift ctrl s" />
-  </action>
   <action id="DatabaseView.OpenDdlInConsole">
     <keyboard-shortcut first-keystroke="shift alt b" />
     <keyboard-shortcut first-keystroke="ctrl p" />
