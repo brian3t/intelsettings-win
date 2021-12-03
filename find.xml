@@ -13,5 +13,8 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
+    <mask>*.cql</mask>
+    <mask>*.ddl</mask>
+    <mask>*.sql</mask>
   </component>
 </application>
