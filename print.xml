@@ -1,0 +1,6 @@
+<application>
+  <component name="PrintSettings">
+    <option name="printScope" value="1" />
+    <option name="PRINT_LINE_NUMBERS" value="false" />
+  </component>
+</application>
