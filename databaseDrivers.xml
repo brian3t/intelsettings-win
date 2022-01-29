@@ -43,6 +43,9 @@
       <library>
         <url>file://C:/tmp/mega/projects/laby/fmjdbc.jar</url>
       </library>
+      <library>
+        <url>file://Z:/projects/laby/fmjdbc.jar</url>
+      </library>
     </driver>
   </component>
 </application>
