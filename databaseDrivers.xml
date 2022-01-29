@@ -41,9 +41,6 @@
     </driver>
     <driver id="java.sql.Driver" name="fm jdbc" driver-class="com.filemaker.jdbc.Driver">
       <library>
-        <url>file://C:/tmp/mega/projects/laby/fmjdbc.jar</url>
-      </library>
-      <library>
         <url>file://Z:/projects/laby/fmjdbc.jar</url>
       </library>
     </driver>
