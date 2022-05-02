@@ -82,6 +82,19 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="JSIntentionPowerPack">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="JUnit">
           <value>
             <PluginData>
@@ -115,19 +128,6 @@
                 <set>
                   <option value="com.intellij.modules.lang" />
                   <option value="com.intellij.modules.vcs" />
-                </set>
-              </option>
-              <option name="enabled" value="false" />
-            </PluginData>
-          </value>
-        </entry>
-        <entry key="Refactor-X">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="com.intellij.modules.ultimate" />
-                  <option value="com.intellij.modules.xml" />
                 </set>
               </option>
               <option name="enabled" value="false" />
@@ -651,30 +651,9 @@
             </PluginData>
           </value>
         </entry>
-        <entry key="com.jetbrains.sh">
-          <value>
-            <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
-          </value>
-        </entry>
         <entry key="com.jetbrains.space">
           <value>
             <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
-          </value>
-        </entry>
-        <entry key="com.microsoft.vso.idea">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="Git4Idea" />
-                  <option value="com.intellij.modules.lang" />
-                  <option value="com.intellij.modules.vcs" />
-                </set>
-              </option>
               <option name="enabled" value="false" />
             </PluginData>
           </value>
