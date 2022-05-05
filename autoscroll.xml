@@ -1,0 +1,7 @@
+<application>
+  <component name="autoscroll">
+    <option name="remember" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+  </component>
+</application>
