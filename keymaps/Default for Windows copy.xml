@@ -4,6 +4,7 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
@@ -122,6 +123,12 @@
   <action id="GotoAction" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl r" />

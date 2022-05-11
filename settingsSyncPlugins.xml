@@ -407,6 +407,39 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.intellij.microservices.jvm">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.microservices.ui">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.persistence">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.plugins.netbeanskeymap">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.intellij.quarkus">
           <value>
             <PluginData>
@@ -429,6 +462,13 @@
           </value>
         </entry>
         <entry key="com.intellij.spring.boot">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.boot.initializr">
           <value>
             <PluginData>
               <option name="enabled" value="false" />
@@ -539,6 +579,33 @@
                 <set>
                   <option value="com.intellij.modules.platform" />
                   <option value="com.jetbrains.projector.libs" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.gateway">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                  <option value="com.intellij.modules.ssh" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.gateway.terminal">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.ssh" />
+                  <option value="com.jetbrains.gateway" />
+                  <option value="org.jetbrains.plugins.terminal" />
                 </set>
               </option>
               <option name="enabled" value="false" />
@@ -763,6 +830,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="org.intellij.qodana">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="org.jetbrains.android">
           <value>
             <PluginData>
@@ -934,6 +1013,13 @@
           </value>
         </entry>
         <entry key="org.jetbrains.security.package-checker">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.toml.lang">
           <value>
             <PluginData>
               <option name="enabled" value="false" />
