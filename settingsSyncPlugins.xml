@@ -82,6 +82,19 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="JSIntentionPowerPack">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="JUnit">
           <value>
             <PluginData>
@@ -115,19 +128,6 @@
                 <set>
                   <option value="com.intellij.modules.lang" />
                   <option value="com.intellij.modules.vcs" />
-                </set>
-              </option>
-              <option name="enabled" value="false" />
-            </PluginData>
-          </value>
-        </entry>
-        <entry key="Refactor-X">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="com.intellij.modules.ultimate" />
-                  <option value="com.intellij.modules.xml" />
                 </set>
               </option>
               <option name="enabled" value="false" />
@@ -407,6 +407,39 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.intellij.microservices.jvm">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.microservices.ui">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.persistence">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.plugins.netbeanskeymap">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.intellij.quarkus">
           <value>
             <PluginData>
@@ -429,6 +462,13 @@
           </value>
         </entry>
         <entry key="com.intellij.spring.boot">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.boot.initializr">
           <value>
             <PluginData>
               <option name="enabled" value="false" />
@@ -545,6 +585,33 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.jetbrains.gateway">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                  <option value="com.intellij.modules.ssh" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.gateway.terminal">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.ssh" />
+                  <option value="com.jetbrains.gateway" />
+                  <option value="org.jetbrains.plugins.terminal" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.jetbrains.idea.refactoring.detector">
           <value>
             <PluginData>
@@ -651,30 +718,9 @@
             </PluginData>
           </value>
         </entry>
-        <entry key="com.jetbrains.sh">
-          <value>
-            <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
-          </value>
-        </entry>
         <entry key="com.jetbrains.space">
           <value>
             <PluginData>
-              <option name="enabled" value="false" />
-            </PluginData>
-          </value>
-        </entry>
-        <entry key="com.microsoft.vso.idea">
-          <value>
-            <PluginData>
-              <option name="dependencies">
-                <set>
-                  <option value="Git4Idea" />
-                  <option value="com.intellij.modules.lang" />
-                  <option value="com.intellij.modules.vcs" />
-                </set>
-              </option>
               <option name="enabled" value="false" />
             </PluginData>
           </value>
@@ -780,6 +826,18 @@
         <entry key="org.intellij.groovy">
           <value>
             <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.intellij.qodana">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
               <option name="enabled" value="false" />
             </PluginData>
           </value>
@@ -955,6 +1013,13 @@
           </value>
         </entry>
         <entry key="org.jetbrains.security.package-checker">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.toml.lang">
           <value>
             <PluginData>
               <option name="enabled" value="false" />

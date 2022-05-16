@@ -4,6 +4,7 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
@@ -98,7 +99,9 @@
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
-  <action id="EditorToggleCase" />
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
@@ -120,8 +123,12 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="GotoAction" />
-  <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  <action id="GotoClass" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
@@ -132,6 +139,7 @@
   <action id="GotoNextError" />
   <action id="GotoPreviousError" />
   <action id="GotoSuperMethod" />
+  <action id="GotoTest" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
@@ -142,6 +150,10 @@
   <action id="Move" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt i" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="ctrl page_down" />
@@ -181,6 +193,8 @@
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
+  <action id="RunInspection" />
+  <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
