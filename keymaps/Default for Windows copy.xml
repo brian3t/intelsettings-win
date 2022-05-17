@@ -92,8 +92,13 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
+  <action id="EditorMatchBrace" />
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift ctrl alt v" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
@@ -160,6 +165,9 @@
     <mouse-shortcut keystroke="control button142" />
   </action>
   <action id="ParameterInfo" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift ctrl insert" />
+  </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
