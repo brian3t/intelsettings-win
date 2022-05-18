@@ -92,14 +92,21 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
+  <action id="EditorMatchBrace" />
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift ctrl alt v" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
-  <action id="EditorToggleCase" />
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
@@ -121,9 +128,7 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="GotoAction" />
-  <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="shift ctrl t" />
-  </action>
+  <action id="GotoClass" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
@@ -139,6 +144,7 @@
   <action id="GotoNextError" />
   <action id="GotoPreviousError" />
   <action id="GotoSuperMethod" />
+  <action id="GotoTest" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
@@ -159,6 +165,9 @@
     <mouse-shortcut keystroke="control button142" />
   </action>
   <action id="ParameterInfo" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift ctrl insert" />
+  </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
@@ -193,6 +202,7 @@
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
   <action id="RunInspection" />
+  <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
