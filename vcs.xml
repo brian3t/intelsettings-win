@@ -234,6 +234,10 @@
           <option name="url" value="https://evssw.visualstudio.com/Utilities/_git/ios_js_lib" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:mediabeef/mwcog-ccmobile.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\www" />
