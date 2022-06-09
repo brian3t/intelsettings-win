@@ -210,7 +210,7 @@
   <action id="ShowProjectStructureSettings" />
   <action id="ShowUmlDiagramPopup" />
   <action id="StepOver">
-    <keyboard-shortcut first-keystroke="f6" />
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="f1" />
