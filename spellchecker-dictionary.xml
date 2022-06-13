@@ -3,6 +3,7 @@
     <words>
       <w>companykey</w>
       <w>invt</w>
+      <w>itemid</w>
       <w>mobe</w>
       <w>recordsets</w>
       <w>retcode</w>
@@ -10,6 +11,8 @@
       <w>ridematch</w>
       <w>transferkey</w>
       <w>transferlog</w>
+      <w>whse</w>
+      <w>whseid</w>
     </words>
   </component>
 </application>
