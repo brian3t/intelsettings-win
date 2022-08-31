@@ -15,6 +15,7 @@
     <mask>*.sql</mask>
     <mask>*.html</mask>
     <mask>*.jrxml</mask>
+    <mask>*.config</mask>
     <mask>*.js</mask>
   </component>
 </application>
