@@ -3,8 +3,12 @@
     <words>
       <w>companykey</w>
       <w>docno</w>
+      <w>inte</w>
       <w>invt</w>
       <w>itemid</w>
+      <w>itemkey</w>
+      <w>locid</w>
+      <w>lotno</w>
       <w>mobe</w>
       <w>recordsets</w>
       <w>retcode</w>
@@ -12,6 +16,7 @@
       <w>ridematch</w>
       <w>transferkey</w>
       <w>transferlog</w>
+      <w>uomid</w>
       <w>whse</w>
       <w>whseid</w>
     </words>
