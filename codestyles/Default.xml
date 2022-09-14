@@ -41,6 +41,11 @@
   </codeStyleSettings>
   <codeStyleSettings language="HTML">
     <option name="RIGHT_MARGIN" value="200" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="SPACE_BEFORE_METHOD_LBRACE" value="false" />
@@ -75,5 +80,12 @@
   </codeStyleSettings>
   <codeStyleSettings language="TSQL">
     <option name="KEEP_LINE_BREAKS" value="false" />
+  </codeStyleSettings>
+  <codeStyleSettings language="liquid">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
