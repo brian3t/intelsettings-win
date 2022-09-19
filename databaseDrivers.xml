@@ -4,18 +4,18 @@
       <artifact id="MongoDB" name="MongoDB" use="true" version="1.7.1" />
     </driver>
     <driver id="sqlserver.ms">
-      <artifact id="SQL Server" name="SQL Server" use="true" version="9.4.0" />
+      <artifact id="SQL Server" name="SQL Server" use="true" version="11.2.0" />
       <artifact id="Active Directory" name="Active Directory" use="true" version="1.6.6" />
-      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.11.0" />
+      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.13.0" />
     </driver>
     <driver id="sqlserver.jtds">
       <artifact />
       <artifact id="jTDS SQL Server and Sybase" name="jTDS SQL Server and Sybase" use="true" version="1.3.1.1" />
     </driver>
     <driver id="azure.ms">
-      <artifact id="SQL Server" name="SQL Server" use="true" version="9.4.0" />
+      <artifact id="SQL Server" name="SQL Server" use="true" version="11.2.0" />
       <artifact id="Active Directory" name="Active Directory" use="true" version="1.6.6" />
-      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.11.0" />
+      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.13.0" />
     </driver>
     <driver id="mysql.8">
       <artifact />
@@ -28,9 +28,27 @@
       <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.5" />
     </driver>
     <driver id="sqlite.xerial">
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.39.2" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+      </library>
     </driver>
     <driver id="dbb088c0-19ac-4cce-a67e-90ea15761c0d" name="cent021 driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
+      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
+      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
+      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
+      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
+      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
+      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
       <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
       <url-template name="In-memory" template="jdbc:sqlite::memory:" />
       <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
@@ -40,14 +58,8 @@
       <library>
         <url>file://C:/soft/fm17/fmjdbc.jar</url>
       </library>
-    </driver>
-    <driver id="786f4cd7-cbf6-45bc-8a5a-24016ef40c7d" name="cent021 driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
-      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
-      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
-      <property name="enable_load_extension" value="true" />
       <library>
-        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
+        <url>file://C:/soft/fm17/fmjdbc.jar</url>
       </library>
     </driver>
     <driver id="d8d845f3-c754-4779-80ad-a2c7652af493" name="fm jdbc mt" driver-class="com.filemaker.jdbc.Driver">
