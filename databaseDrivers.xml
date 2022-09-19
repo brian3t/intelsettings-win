@@ -50,5 +50,10 @@
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
       </library>
     </driver>
+    <driver id="d8d845f3-c754-4779-80ad-a2c7652af493" name="fm jdbc mt" driver-class="com.filemaker.jdbc.Driver">
+      <library>
+        <url>file://E:/soft/windows/fm17/FileMaker Pro 17.0.5 Advanced/Extras/xDBC/JDBC Client Driver/fmjdbc.jar</url>
+      </library>
+    </driver>
   </component>
 </application>
