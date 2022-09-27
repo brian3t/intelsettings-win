@@ -3,8 +3,8 @@
     <driver id="mongo">
       <artifact id="MongoDB" name="MongoDB" use="true" version="1.7.1" />
     </driver>
-    <driver id="sqlserver.ms" dialect="AZURE">
-      <artifact id="SQL Server" name="SQL Server" use="true" version="10.2.1" />
+    <driver id="sqlserver.ms">
+      <artifact id="SQL Server" name="SQL Server" use="true" version="11.2.0" />
       <artifact id="Active Directory" name="Active Directory" use="true" version="1.6.6" />
       <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.13.0" />
     </driver>
