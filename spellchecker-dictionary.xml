@@ -10,6 +10,7 @@
       <w>locid</w>
       <w>lotno</w>
       <w>mobe</w>
+      <w>recdets</w>
       <w>recordsets</w>
       <w>retcode</w>
       <w>retval</w>
