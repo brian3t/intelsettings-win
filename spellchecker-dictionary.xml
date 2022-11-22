@@ -7,13 +7,19 @@
       <w>invt</w>
       <w>itemid</w>
       <w>itemkey</w>
+      <w>locid</w>
+      <w>lotlno</w>
+      <w>lotno</w>
       <w>mobe</w>
+      <w>recdets</w>
       <w>recordsets</w>
       <w>retcode</w>
       <w>retval</w>
       <w>ridematch</w>
+      <w>rowid</w>
       <w>transferkey</w>
       <w>transferlog</w>
+      <w>uomid</w>
       <w>whse</w>
       <w>whseid</w>
     </words>

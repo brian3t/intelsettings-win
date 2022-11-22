@@ -171,6 +171,31 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="XPathView">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="XSLT-Debugger">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="XPathView" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="ZKM">
           <value>
             <PluginData>
@@ -195,6 +220,11 @@
               </option>
               <option name="enabled" value="false" />
             </PluginData>
+          </value>
+        </entry>
+        <entry key="com.euphoricity.gitignore">
+          <value>
+            <PluginData />
           </value>
         </entry>
         <entry key="com.intellij.aop">
@@ -400,6 +430,18 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.intellij.lang.liquid">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                  <option value="com.intellij.modules.ultimate" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
         <entry key="com.intellij.micronaut">
           <value>
             <PluginData>
@@ -429,6 +471,18 @@
           </value>
         </entry>
         <entry key="com.intellij.plugins.netbeanskeymap">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.plugins.visualstudiokeymap">
           <value>
             <PluginData>
               <option name="dependencies">
@@ -520,6 +574,25 @@
         <entry key="com.intellij.spring.websocket">
           <value>
             <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.swagger">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.tasks">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
               <option name="enabled" value="false" />
             </PluginData>
           </value>
@@ -711,6 +784,11 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.jetbrains.restClient">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
         <entry key="com.jetbrains.restWebServices">
           <value>
             <PluginData>
@@ -886,7 +964,6 @@
                   <option value="com.intellij.modules.java" />
                 </set>
               </option>
-              <option name="enabled" value="false" />
             </PluginData>
           </value>
         </entry>
@@ -1012,10 +1089,33 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="org.jetbrains.plugins.textmate">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
         <entry key="org.jetbrains.security.package-checker">
           <value>
             <PluginData>
               <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.sylfra.idea.plugins.linessorter">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
             </PluginData>
           </value>
         </entry>

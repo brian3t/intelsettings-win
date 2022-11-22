@@ -1,6 +1,6 @@
 <code_scheme name="Default" version="173">
   <option name="LINE_SEPARATOR" value="&#10;" />
-  <option name="RIGHT_MARGIN" value="150" />
+  <option name="RIGHT_MARGIN" value="200" />
   <HTMLCodeStyleSettings>
     <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   </HTMLCodeStyleSettings>
@@ -20,6 +20,13 @@
     <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
     <option name="EXPR_CASE_WHEN_WRAP" value="false" />
   </SqlCodeStyleSettings>
+  <codeStyleSettings language="CSS">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="DB2">
     <option name="KEEP_LINE_BREAKS" value="false" />
   </codeStyleSettings>
@@ -34,6 +41,11 @@
   </codeStyleSettings>
   <codeStyleSettings language="HTML">
     <option name="RIGHT_MARGIN" value="200" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="SPACE_BEFORE_METHOD_LBRACE" value="false" />
@@ -68,5 +80,12 @@
   </codeStyleSettings>
   <codeStyleSettings language="TSQL">
     <option name="KEEP_LINE_BREAKS" value="false" />
+  </codeStyleSettings>
+  <codeStyleSettings language="liquid">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
