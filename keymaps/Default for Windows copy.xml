@@ -20,6 +20,7 @@
   </action>
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
+  <action id="ChangesView.GroupBy.Module" />
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -102,6 +103,7 @@
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="shift ctrl alt v" />
     <keyboard-shortcut first-keystroke="shift ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift alt up" />
@@ -121,6 +123,7 @@
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl add" />
   </action>
+  <action id="ExtractMethod" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -219,12 +222,14 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="TodoViewGroupByShowModules" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="f11" />
     <keyboard-shortcut first-keystroke="ctrl f2" />
   </action>
   <action id="TypeHierarchy" />
   <action id="UpdateRunningApplication" />
+  <action id="UsageGrouping.Module" />
   <action id="Vcs.QuickListPopupAction" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
