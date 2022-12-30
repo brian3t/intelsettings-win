@@ -1,6 +1,7 @@
 <application>
   <component name="DatabaseSettings" version="9">
     <option name="auto-transpose-mode" value="ONE_ROW" />
+    <option name="warn-unsafe-query" value="false" />
     <text-mode>
       <parameter-patterns>
         <parameter-pattern value="#(\w+)#" in-scripts="true" scope="XML" predefined="#name#" />
