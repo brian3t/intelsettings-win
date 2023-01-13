@@ -7,7 +7,7 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.4.19" id="a49e15c3-fc4a-4f68-acc1-d574c099e374" port="22" customName="INTTest" nameFormat="CUSTOM" username="evsadmin" useOpenSSHConfig="true">
         <option name="customName" value="INTTest" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" host="192.168.4.24" id="4a467549-59f9-448b-9193-527496e7c120" port="22" customName="linux01" nameFormat="CUSTOM" username="deploy" useOpenSSHConfig="true">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.4.24" id="4a467549-59f9-448b-9193-527496e7c120" port="22" customName="linux01" nameFormat="CUSTOM" username="deploy" useOpenSSHConfig="true">
         <option name="customName" value="linux01" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="192.168.5.9" id="3cf83e8a-c42b-4279-991e-e68ff9ba78ee" port="22" customName="linux02" nameFormat="CUSTOM" username="deploy" useOpenSSHConfig="true">
@@ -15,6 +15,9 @@
       </sshConfig>
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.5.4" id="04de9292-4ae4-4855-ba77-9fda39796a79" port="22" customName="INT2" nameFormat="CUSTOM" username="evsadmin" useOpenSSHConfig="false">
         <option name="customName" value="INT2" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.3.8" id="617a0116-939b-4d8a-ae73-68436a141156" port="22" customName="PrintDev" nameFormat="CUSTOM" username="evsadmin" useOpenSSHConfig="true">
+        <option name="customName" value="PrintDev" />
       </sshConfig>
     </configs>
   </component>
