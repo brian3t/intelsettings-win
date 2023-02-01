@@ -9,6 +9,7 @@
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping pattern="spum_psl_nb" type="SQL" />
       <mapping pattern="1106_btptest_spumpackutil_bkup" type="SQL" />
+      <mapping ext="cmd" type="Shell Script" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="Batch" />
       <removed_mapping ext="cmd" approved="true" type="Batch" />
@@ -28,7 +29,6 @@
       <removed_mapping ext="yml" approved="true" type="YAML_EX" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
       <removed_mapping pattern=".prettierrc" approved="true" type="JSON" />
-      <mapping ext="cmd" type="Shell Script" />
       <mapping ext="main.kts" type="Kotlin" />
     </extensionMap>
   </component>
