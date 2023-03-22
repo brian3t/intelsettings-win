@@ -4,9 +4,9 @@
       <mapping pattern="job.config" type="JSON" />
       <mapping pattern=".ignoreme" type="PLAIN_TEXT" />
       <mapping ext="bat" type="PLAIN_TEXT" />
+      <mapping ext="meta" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
-      <mapping ext="meta" type="PLAIN_TEXT" />
       <mapping pattern="spum_psl_nb" type="SQL" />
       <mapping pattern="1106_btptest_spumpackutil_bkup" type="SQL" />
       <mapping ext="cmd" type="Shell Script" />
