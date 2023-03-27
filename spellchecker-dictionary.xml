@@ -8,9 +8,11 @@
       <w>invt</w>
       <w>itemid</w>
       <w>itemkey</w>
+      <w>kitutil</w>
       <w>locid</w>
       <w>lotlno</w>
       <w>lotno</w>
+      <w>mfrp</w>
       <w>mobe</w>
       <w>recdets</w>
       <w>recordsets</w>
