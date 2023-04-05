@@ -3,6 +3,7 @@
     <words>
       <w>companykey</w>
       <w>conts</w>
+      <w>dataview</w>
       <w>docno</w>
       <w>inte</w>
       <w>invt</w>
@@ -22,6 +23,7 @@
       <w>rowid</w>
       <w>transferkey</w>
       <w>transferlog</w>
+      <w>unposted</w>
       <w>uomid</w>
       <w>waveid</w>
       <w>whse</w>
