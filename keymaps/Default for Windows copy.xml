@@ -157,6 +157,10 @@
   <action id="GotoSuperMethod" />
   <action id="GotoTest" />
   <action id="Graph.ApplyCurrentLayout" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift ctrl f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
   <action id="JumpToLastWindow" />
@@ -191,6 +195,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="QuickImplementations" />
   <action id="Refactorings.QuickListPopupAction" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
