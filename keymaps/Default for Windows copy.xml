@@ -79,6 +79,7 @@
   </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
+  <action id="Diff.ApplyLeftSide" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f12" />
@@ -233,6 +234,9 @@
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="SynchronizeCurrentFile">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="TodoViewGroupByShowModules" />
   <action id="ToggleBookmark">
