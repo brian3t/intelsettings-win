@@ -1,0 +1,9 @@
+<application>
+  <component name="libraryTable">
+    <library name="@types/lodash" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</application>
