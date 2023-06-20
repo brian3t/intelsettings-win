@@ -235,6 +235,7 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="Synchronize" />
   <action id="SynchronizeCurrentFile">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
@@ -249,6 +250,9 @@
   <action id="Vcs.QuickListPopupAction" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="ctrl alt y" />
+  </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
   <action id="sql.SelectInDatabaseView" />
   <action id="tasks.open.in.browser" />
