@@ -3,7 +3,7 @@
     <driver id="mongo">
       <artifact id="MongoDB" name="MongoDB" use="true" version="1.7.1" />
     </driver>
-    <driver id="sqlserver.ms" dialect="AZURE">
+    <driver id="sqlserver.ms">
       <artifact id="SQL Server" name="SQL Server" use="true" version="12.2.0" />
       <artifact id="Active Directory" name="Active Directory" use="true" version="1.6.6" />
       <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.13.7" />
@@ -43,12 +43,6 @@
       </library>
     </driver>
     <driver id="dbb088c0-19ac-4cce-a67e-90ea15761c0d" name="cent021 driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
-      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
-      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
-      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
-      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
-      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
-      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
       <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
       <url-template name="In-memory" template="jdbc:sqlite::memory:" />
       <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
