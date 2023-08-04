@@ -5,6 +5,8 @@
         <option value="org.intellij.plugins.postcss" />
         <option value="com.jetbrains.lang.ejs" />
         <option value="intellij.prettierJS" />
+        <option value="com.intellij.kubernetes" />
+        <option value="Docker" />
       </list>
     </option>
   </component>
