@@ -246,6 +246,7 @@
   <action id="UpdateRunningApplication" />
   <action id="UsageGrouping.Module" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.UpdateProject" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
   <action id="editRunConfigurations">
