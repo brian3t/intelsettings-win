@@ -67,6 +67,9 @@
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="DatabaseView.CopyTable" />
+  <action id="DatabaseView.FilterAction">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="DatabaseView.OpenDdlInConsole">
     <keyboard-shortcut first-keystroke="shift alt b" />
     <keyboard-shortcut first-keystroke="ctrl p" />
@@ -220,6 +223,7 @@
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
   <action id="RunInspection" />
+  <action id="SaveAll" />
   <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
