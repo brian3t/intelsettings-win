@@ -51,6 +51,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
     <keyboard-shortcut first-keystroke="shift ctrl a" />
     <keyboard-shortcut first-keystroke="shift ctrl s" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
@@ -69,6 +70,7 @@
   <action id="DatabaseView.CopyTable" />
   <action id="DatabaseView.FilterAction">
     <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="DatabaseView.OpenDdlInConsole">
     <keyboard-shortcut first-keystroke="shift alt b" />
