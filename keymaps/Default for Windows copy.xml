@@ -121,12 +121,14 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
   <action id="EditorToggleCase" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="alt f8" />
@@ -178,6 +180,8 @@
   <action id="Move" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
     <keyboard-shortcut first-keystroke="shift ctrl alt i" />
