@@ -4,7 +4,7 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.6.100" id="98fa495d-7b41-4d5f-99b8-8c78c03caa9b" port="22" customName="INT1" nameFormat="CUSTOM" username="evsadmin" useOpenSSHConfig="true">
         <option name="customName" value="INT1" />
       </sshConfig>
-      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.4.19" id="a49e15c3-fc4a-4f68-acc1-d574c099e374" port="22" customName="INTTest" nameFormat="CUSTOM" username="evsadmin" useOpenSSHConfig="true">
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.11.70" id="a49e15c3-fc4a-4f68-acc1-d574c099e374" port="22" customName="INTTest" nameFormat="CUSTOM" username="evsadmin" useOpenSSHConfig="true">
         <option name="customName" value="INTTest" />
       </sshConfig>
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.4.24" id="4a467549-59f9-448b-9193-527496e7c120" port="22" customName="linux01" nameFormat="CUSTOM" username="deploy" useOpenSSHConfig="true">
