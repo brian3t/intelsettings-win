@@ -8,7 +8,7 @@
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="SPACE_AFTER_UNARY_NOT" value="true" />
   </JSCodeStyleSettings>
-  <SqlCodeStyleSettings version="6">
+  <SqlCodeStyleSettings version="7">
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
