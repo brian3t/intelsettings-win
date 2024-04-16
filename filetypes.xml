@@ -28,7 +28,7 @@
       <removed_mapping ext="yml" approved="true" type="YAML_EX" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
       <removed_mapping pattern=".prettierrc" approved="true" type="JSON" />
-      <removed_mapping pattern=".stylelintrc" type="JSON" />
+      <removed_mapping pattern=".stylelintrc" approved="true" type="JSON" />
       <mapping ext="main.kts" type="Kotlin" />
     </extensionMap>
   </component>
