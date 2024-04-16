@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="19">
     <extensionMap>
       <mapping pattern="job.config" type="JSON" />
+      <removed_mapping pattern=".stylelintrc" type="JSON" />
       <mapping pattern=".ignoreme" type="PLAIN_TEXT" />
       <mapping ext="bat" type="PLAIN_TEXT" />
       <mapping ext="meta" type="PLAIN_TEXT" />
