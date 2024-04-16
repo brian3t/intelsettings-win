@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="19">
     <extensionMap>
       <mapping pattern="job.config" type="JSON" />
-      <removed_mapping pattern=".stylelintrc" type="JSON" />
       <mapping pattern=".ignoreme" type="PLAIN_TEXT" />
       <mapping ext="bat" type="PLAIN_TEXT" />
       <mapping ext="meta" type="PLAIN_TEXT" />
@@ -29,6 +28,7 @@
       <removed_mapping ext="yml" approved="true" type="YAML_EX" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
       <removed_mapping pattern=".prettierrc" approved="true" type="JSON" />
+      <removed_mapping pattern=".stylelintrc" type="JSON" />
       <mapping ext="main.kts" type="Kotlin" />
     </extensionMap>
   </component>
