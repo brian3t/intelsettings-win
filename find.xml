@@ -5,6 +5,7 @@
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.html" />
     <mask>*.php</mask>
     <mask>*.css</mask>
     <mask>*.xml</mask>
@@ -13,10 +14,10 @@
     <mask>*.java</mask>
     <mask>*.cql</mask>
     <mask>*.ddl</mask>
-    <mask>*.sql</mask>
     <mask>*.jrxml</mask>
     <mask>*.config</mask>
     <mask>*.js</mask>
+    <mask>*.sql</mask>
     <mask>*.html</mask>
   </component>
 </application>
