@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="19">
     <extensionMap>
-      <mapping ext="ng" type="HTML" />
       <mapping pattern="job.config" type="JSON" />
       <mapping pattern=".ignoreme" type="PLAIN_TEXT" />
       <mapping ext="bat" type="PLAIN_TEXT" />
