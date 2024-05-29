@@ -10,6 +10,8 @@
       <w>cust</w>
       <w>dataview</w>
       <w>docno</w>
+      <w>drows</w>
+      <w>dvrows</w>
       <w>entid</w>
       <w>extnum</w>
       <w>fnum</w>
@@ -41,6 +43,7 @@
       <w>replid</w>
       <w>repls</w>
       <w>replutil</w>
+      <w>requiredforcreate</w>
       <w>retcode</w>
       <w>retval</w>
       <w>ridematch</w>
