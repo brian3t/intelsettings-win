@@ -16,6 +16,7 @@
       <w>extnum</w>
       <w>fnum</w>
       <w>helptext</w>
+      <w>insupd</w>
       <w>inte</w>
       <w>invs</w>
       <w>invt</w>
@@ -28,6 +29,7 @@
       <w>lockey</w>
       <w>lotlno</w>
       <w>lotno</w>
+      <w>mfid</w>
       <w>mflineid</w>
       <w>mfrp</w>
       <w>milos</w>
@@ -58,6 +60,7 @@
       <w>uomid</w>
       <w>userkey</w>
       <w>waveid</w>
+      <w>whprop</w>
       <w>whse</w>
       <w>whseid</w>
       <w>xfer</w>
