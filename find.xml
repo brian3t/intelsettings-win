@@ -14,7 +14,7 @@
     <mask>*.jrxml</mask>
     <mask>*.config</mask>
     <mask>*.sql</mask>
-    <mask>*.html</mask>
     <mask>*.js</mask>
+    <mask>*.html</mask>
   </component>
 </application>
