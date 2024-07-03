@@ -3,7 +3,9 @@
     <words>
       <w>asdf</w>
       <w>companykey</w>
+      <w>contid</w>
       <w>conts</w>
+      <w>coprod</w>
       <w>crossdock</w>
       <w>cust</w>
       <w>dataview</w>
@@ -14,14 +16,19 @@
       <w>invt</w>
       <w>itemid</w>
       <w>itemkey</w>
+      <w>kitcoprod</w>
       <w>kitutil</w>
       <w>locid</w>
       <w>lockey</w>
       <w>lotlno</w>
       <w>lotno</w>
+      <w>mflineid</w>
       <w>mfrp</w>
       <w>mobe</w>
+      <w>parms</w>
       <w>printbot</w>
+      <w>putaway</w>
+      <w>recdet</w>
       <w>recdets</w>
       <w>recordsets</w>
       <w>retcode</w>
@@ -29,6 +36,7 @@
       <w>ridematch</w>
       <w>rowid</w>
       <w>sesstoken</w>
+      <w>shipmeth</w>
       <w>spum</w>
       <w>transferkey</w>
       <w>transferlog</w>

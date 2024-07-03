@@ -51,6 +51,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
     <keyboard-shortcut first-keystroke="shift ctrl a" />
     <keyboard-shortcut first-keystroke="shift ctrl s" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
@@ -58,6 +59,7 @@
   </action>
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift alt t" />
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
@@ -66,6 +68,10 @@
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="DatabaseView.CopyTable" />
+  <action id="DatabaseView.FilterAction">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="DatabaseView.OpenDdlInConsole">
     <keyboard-shortcut first-keystroke="shift alt b" />
     <keyboard-shortcut first-keystroke="ctrl p" />
@@ -115,14 +121,14 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
-  <action id="EditorToggleCase">
-    <keyboard-shortcut first-keystroke="shift ctrl t" />
-  </action>
+  <action id="EditorToggleCase" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="alt f8" />
@@ -151,7 +157,7 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="f2" />
@@ -174,6 +180,8 @@
   <action id="Move" />
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt insert" />
     <keyboard-shortcut first-keystroke="shift ctrl alt i" />
@@ -206,6 +214,7 @@
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift alt r" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -222,6 +231,7 @@
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
   <action id="RunInspection" />
+  <action id="SaveAll" />
   <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
@@ -248,6 +258,7 @@
   <action id="UpdateRunningApplication" />
   <action id="UsageGrouping.Module" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.UpdateProject" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
   <action id="editRunConfigurations">
