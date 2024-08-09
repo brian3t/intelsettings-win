@@ -48,18 +48,5 @@
       <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
       <property name="enable_load_extension" value="true" />
     </driver>
-    <driver id="java.sql.Driver" name="fm jdbc" driver-class="com.filemaker.jdbc.Driver">
-      <library>
-        <url>file://C:/soft/fm17/fmjdbc.jar</url>
-      </library>
-      <library>
-        <url>file://C:/soft/fm17/fmjdbc.jar</url>
-      </library>
-    </driver>
-    <driver id="d8d845f3-c754-4779-80ad-a2c7652af493" name="fm jdbc mt" driver-class="com.filemaker.jdbc.Driver">
-      <library>
-        <url>file://E:/soft/windows/fm17/FileMaker Pro 17.0.5 Advanced/Extras/xDBC/JDBC Client Driver/fmjdbc.jar</url>
-      </library>
-    </driver>
   </component>
 </application>
