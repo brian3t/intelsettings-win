@@ -7,7 +7,9 @@
       <homePath value="C:/Program Files/Java/jdk-15.0.2" />
       <roots>
         <annotationsPath>
-          <root type="composite" />
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
         </annotationsPath>
         <classPath>
           <root type="composite">
