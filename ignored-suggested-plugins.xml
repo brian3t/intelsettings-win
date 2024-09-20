@@ -8,6 +8,7 @@
         <option value="com.intellij.kubernetes" />
         <option value="Docker" />
         <option value="com.intellij.bigdatatools.rfs" />
+        <option value="com.intellij.aqua" />
       </list>
     </option>
   </component>
