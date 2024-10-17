@@ -19,6 +19,9 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.3.8" id="617a0116-939b-4d8a-ae73-68436a141156" port="22" customName="PrintDev" nameFormat="CUSTOM" username="evsadmin" useOpenSSHConfig="true">
         <option name="customName" value="PrintDev" />
       </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.6.87" id="8967e99d-a149-44ac-b8c8-23a18ee057a8" port="22" customName="INT3" nameFormat="CUSTOM" username="evsadmin" useOpenSSHConfig="false">
+        <option name="customName" value="INT3" />
+      </sshConfig>
     </configs>
   </component>
 </application>
