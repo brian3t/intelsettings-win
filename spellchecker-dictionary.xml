@@ -10,27 +10,46 @@
       <w>cust</w>
       <w>dataview</w>
       <w>docno</w>
+      <w>drows</w>
+      <w>dvrows</w>
+      <w>entid</w>
+      <w>entkey</w>
+      <w>extnum</w>
       <w>fnum</w>
       <w>helptext</w>
+      <w>insupd</w>
       <w>inte</w>
+      <w>invs</w>
       <w>invt</w>
       <w>itemid</w>
       <w>itemkey</w>
+      <w>kitcomp</w>
       <w>kitcoprod</w>
       <w>kitutil</w>
       <w>locid</w>
       <w>lockey</w>
       <w>lotlno</w>
       <w>lotno</w>
+      <w>mfid</w>
       <w>mflineid</w>
       <w>mfrp</w>
+      <w>milos</w>
       <w>mobe</w>
+      <w>otif</w>
+      <w>ownerrp</w>
       <w>parms</w>
+      <w>poline</w>
       <w>printbot</w>
       <w>putaway</w>
       <w>recdet</w>
       <w>recdets</w>
       <w>recordsets</w>
+      <w>refcode</w>
+      <w>refcodes</w>
+      <w>replid</w>
+      <w>repls</w>
+      <w>replutil</w>
+      <w>requiredforcreate</w>
       <w>retcode</w>
       <w>retval</w>
       <w>ridematch</w>
@@ -38,15 +57,18 @@
       <w>sesstoken</w>
       <w>shipmeth</w>
       <w>spum</w>
+      <w>sscc</w>
       <w>transferkey</w>
       <w>transferlog</w>
       <w>unposted</w>
       <w>uomid</w>
       <w>userkey</w>
       <w>waveid</w>
+      <w>whprop</w>
       <w>whse</w>
       <w>whseid</w>
       <w>xfer</w>
+      <w>zoneid</w>
     </words>
   </component>
 </application>

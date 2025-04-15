@@ -1,4 +1,10 @@
 <code_scheme name="Default" version="173">
+  <option name="OTHER_INDENT_OPTIONS">
+    <value>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </value>
+  </option>
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="RIGHT_MARGIN" value="180" />
   <HTMLCodeStyleSettings>
@@ -8,7 +14,7 @@
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="SPACE_AFTER_UNARY_NOT" value="true" />
   </JSCodeStyleSettings>
-  <SqlCodeStyleSettings version="6">
+  <SqlCodeStyleSettings version="7">
     <option name="TABLE_OPENING" value="1" />
     <option name="TABLE_CONTENT" value="1" />
     <option name="TABLE_CLOSING" value="1" />
@@ -53,6 +59,7 @@
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
+      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="MySQL">
@@ -80,6 +87,13 @@
   </codeStyleSettings>
   <codeStyleSettings language="TSQL">
     <option name="KEEP_LINE_BREAKS" value="false" />
+  </codeStyleSettings>
+  <codeStyleSettings language="TypeScript">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="XML">
     <indentOptions>

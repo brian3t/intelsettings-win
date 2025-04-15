@@ -1,8 +1,0 @@
-<application>
-  <component name="PhpAutoImport" auto_import_namespace_scope="false" />
-  <component name="PhpCodeSniffer">
-    <phpcs_settings>
-      <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR2;Squiz;Zend" tool_path="phpcs" />
-    </phpcs_settings>
-  </component>
-</application>

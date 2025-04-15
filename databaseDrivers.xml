@@ -4,18 +4,22 @@
       <artifact id="MongoDB" name="MongoDB" use="true" version="1.7.1" />
     </driver>
     <driver id="sqlserver.ms">
-      <artifact id="SQL Server" name="SQL Server" use="true" version="12.2.0" />
+      <artifact id="SQL Server" name="SQL Server" use="true" version="12.8.1" />
       <artifact id="Active Directory" name="Active Directory" use="true" version="1.6.6" />
-      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.13.7" />
+      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.17.2" />
     </driver>
     <driver id="sqlserver.jtds">
       <artifact />
       <artifact id="jTDS SQL Server and Sybase" name="jTDS SQL Server and Sybase" use="true" version="1.3.1.1" />
     </driver>
     <driver id="azure.ms">
-      <artifact id="SQL Server" name="SQL Server" use="true" version="12.2.0" />
+      <artifact id="SQL Server" name="SQL Server" use="true" version="12.8.1" />
       <artifact id="Active Directory" name="Active Directory" use="true" version="1.6.6" />
-      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.13.7" />
+      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.17.2" />
+    </driver>
+    <driver id="sqlserver.localdb.jtds">
+      <artifact />
+      <artifact id="jTDS SQL Server and Sybase" name="jTDS SQL Server and Sybase" use="true" version="1.3.1.1" />
     </driver>
     <driver id="mysql.8">
       <artifact />
@@ -42,24 +46,6 @@
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
       </library>
     </driver>
-    <driver id="dbb088c0-19ac-4cce-a67e-90ea15761c0d" name="cent021 driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
-      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
-      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
-      <property name="enable_load_extension" value="true" />
-    </driver>
-    <driver id="java.sql.Driver" name="fm jdbc" driver-class="com.filemaker.jdbc.Driver">
-      <library>
-        <url>file://C:/soft/fm17/fmjdbc.jar</url>
-      </library>
-      <library>
-        <url>file://C:/soft/fm17/fmjdbc.jar</url>
-      </library>
-    </driver>
-    <driver id="d8d845f3-c754-4779-80ad-a2c7652af493" name="fm jdbc mt" driver-class="com.filemaker.jdbc.Driver">
-      <library>
-        <url>file://E:/soft/windows/fm17/FileMaker Pro 17.0.5 Advanced/Extras/xDBC/JDBC Client Driver/fmjdbc.jar</url>
-      </library>
-    </driver>
+    <driver id="c023d329-ed13-4576-888e-b3bcbc936bdb" name="User Driver" driver-class="java.sql.Driver" />
   </component>
 </application>

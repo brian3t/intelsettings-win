@@ -19,4 +19,14 @@
       <option name="SQL" value="true" />
     </context>
   </template>
+  <template name="svop" value="SELECT * FROM vO2SpText WHERE text like '%$END$%'" description="sel * from vO2SpText" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="dret" value="BEGIN&#10; EXEC spumSqlSess @userid='evsbn',@org='001'&#10; DECLARE @retval INT, @msg NVARCHAR(1000)&#10; " description="declare retv" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
 </templateSet>
