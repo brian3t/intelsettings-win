@@ -16,6 +16,7 @@
       <w>entkey</w>
       <w>extnum</w>
       <w>fnum</w>
+      <w>formid</w>
       <w>helptext</w>
       <w>insupd</w>
       <w>inte</w>
@@ -26,10 +27,12 @@
       <w>kitcomp</w>
       <w>kitcoprod</w>
       <w>kitutil</w>
+      <w>lkup</w>
       <w>locid</w>
       <w>lockey</w>
       <w>lotlno</w>
       <w>lotno</w>
+      <w>lotrp</w>
       <w>mfid</w>
       <w>mflineid</w>
       <w>mfrp</w>
@@ -37,9 +40,12 @@
       <w>mobe</w>
       <w>otif</w>
       <w>ownerrp</w>
+      <w>packid</w>
       <w>parms</w>
+      <w>pickdet</w>
       <w>poline</w>
       <w>printbot</w>
+      <w>processoverride</w>
       <w>putaway</w>
       <w>recdet</w>
       <w>recdets</w>
@@ -56,6 +62,7 @@
       <w>rowid</w>
       <w>sesstoken</w>
       <w>shipmeth</w>
+      <w>shiprp</w>
       <w>spum</w>
       <w>sscc</w>
       <w>transferkey</w>
