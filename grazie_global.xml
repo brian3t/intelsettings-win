@@ -5,5 +5,10 @@
         <option value="Grazie.RuleEngine.En.Style.SENTENCE_CAPITALIZATION" />
       </set>
     </option>
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="isCheckInCommentsEnabled" value="false" />
+      </CheckingContext>
+    </option>
   </component>
 </application>
