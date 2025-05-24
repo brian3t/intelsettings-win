@@ -8,6 +8,7 @@
     <option name="checkingContext">
       <CheckingContext>
         <option name="isCheckInCommentsEnabled" value="false" />
+        <option name="isCheckInDocumentationEnabled" value="false" />
       </CheckingContext>
     </option>
   </component>
