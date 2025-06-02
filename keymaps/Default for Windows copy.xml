@@ -30,6 +30,11 @@
     <keyboard-shortcut first-keystroke="shift alt f10" />
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
+  <action id="ClickLink">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -55,6 +60,11 @@
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="Console.TableResult.GotoReferencingResult">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
   </action>
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
@@ -87,6 +97,7 @@
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f12" />
+    <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
@@ -150,12 +161,6 @@
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
   </action>
-  <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-    <mouse-shortcut keystroke="control button1" />
-    <mouse-shortcut keystroke="button2" />
-    <keyboard-shortcut first-keystroke="f4" />
-  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
     <keyboard-shortcut first-keystroke="shift ctrl r" />
@@ -174,6 +179,11 @@
   </action>
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
+  <action id="Jdbc.OpenEditor.DDL">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
   <action id="JumpToLastWindow" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
