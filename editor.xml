@@ -1,36 +1,33 @@
 <application>
   <component name="CodeInsightSettings">
-    <option name="ADD_IMPORTS_ON_PASTE" value="3" />
-  </component>
-  <component name="CodeVisionSettings">
-    <option name="defaultPosition" value="Right" />
+    <option name="AUTOINSERT_PAIR_QUOTE" value="false" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="AUTOREPARSE_DELAY" value="0" />
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
   <component name="DeclarativeInlayHintsSettings">
-    <option name="providerIdToEnabled">
+    <option name="enabledOptions">
       <map>
-        <entry key="java.implicit.types" value="false" />
-        <entry key="java.method.chains" value="true" />
-        <entry key="js.chain.hints" value="true" />
-        <entry key="js.type.hints" value="true" />
-        <entry key="ts.chain.hints" value="true" />
-        <entry key="ts.enum.hints" value="true" />
-        <entry key="ts.type.hints" value="true" />
+        <entry key="js.type.hints#function.returns" value="true" />
       </map>
     </option>
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
+    <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
   <component name="InlineCompletionOnboarding">
     <option name="onboardingFinished" value="true" />
   </component>
+  <component name="LiveEditOptions" nodeAutoDelay="300" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" updateFilesToCompile="true" />
   <component name="TodoConfiguration">
     <pattern pattern="\b(todo|fixme)\b.*" />
+    <pattern case-sensitive="true" pattern="todob" />
   </component>
 </application>

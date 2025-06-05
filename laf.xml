@@ -1,9 +1,9 @@
 <application>
   <component name="LafManager">
-    <laf themeId="ExperimentalLight" />
+    <laf themeId="ExperimentalLightWithLightHeader" />
     <lafs-to-previous-schemes>
+      <laf-to-scheme laf="ExperimentalDark" scheme="_@user_Light" />
       <laf-to-scheme laf="ExperimentalLightWithLightHeader" scheme="_@user_IntelliJ Light" />
-      <laf-to-scheme laf="Light" scheme="_@user_Light" />
     </lafs-to-previous-schemes>
   </component>
 </application>
