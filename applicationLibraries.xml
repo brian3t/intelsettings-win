@@ -5,14 +5,9 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="moment" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://C:/www/jslib/node_modules/moment/dist/moment.js" />
-        </sourceFilesUrls>
-      </properties>
+    <library name="momentjs" type="javaScript">
       <CLASSES>
-        <root url="file://C:/www/jslib/node_modules/moment/dist/moment.js" />
+        <root url="file://C:/www/jslib/node_modules/moment/moment.js" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
