@@ -11,6 +11,7 @@
       <w>countfreeze</w>
       <w>countitem</w>
       <w>countrp</w>
+      <w>countutil</w>
       <w>crossdock</w>
       <w>cust</w>
       <w>dataview</w>
@@ -79,6 +80,7 @@
       <w>transferlog</w>
       <w>unposted</w>
       <w>uomid</w>
+      <w>userids</w>
       <w>userkey</w>
       <w>waveid</w>
       <w>whprop</w>
