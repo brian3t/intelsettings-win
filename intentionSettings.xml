@@ -1,5 +1,7 @@
 <application>
   <component name="IntentionManagerSettings">
     <ignoreAction name="AI Assistant/AI Actions..." />
+    <ignoreAction name="AI Assistant/AI Actions…" />
+    <ignoreAction name="AI Assistant/Fix with AI" />
   </component>
 </application>
