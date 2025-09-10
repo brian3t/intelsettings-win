@@ -3,9 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.js" />
     <mask>*.php</mask>
-    <mask>*.css</mask>
     <mask>*.xml</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
@@ -17,5 +15,6 @@
     <mask>*.sql</mask>
     <mask>*.html</mask>
     <mask>*.js</mask>
+    <mask>*.css</mask>
   </component>
 </application>
