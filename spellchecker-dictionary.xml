@@ -2,6 +2,7 @@
   <component name="CachedDictionaryState">
     <words>
       <w>asdf</w>
+      <w>bulkedit</w>
       <w>cdet</w>
       <w>cdets</w>
       <w>companykey</w>
@@ -15,6 +16,7 @@
       <w>crossdock</w>
       <w>cust</w>
       <w>dataview</w>
+      <w>dataviewselect</w>
       <w>dets</w>
       <w>dists</w>
       <w>docno</w>
@@ -36,6 +38,7 @@
       <w>kitcoprod</w>
       <w>kitutil</w>
       <w>lkup</w>
+      <w>loaddata</w>
       <w>locid</w>
       <w>lockey</w>
       <w>lotlno</w>
@@ -70,6 +73,7 @@
       <w>retval</w>
       <w>ridematch</w>
       <w>rowid</w>
+      <w>rowtpl</w>
       <w>sesstoken</w>
       <w>shipmeth</w>
       <w>shiprp</w>
