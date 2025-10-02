@@ -31,6 +31,7 @@
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
+  <action id="ContextHelp" />
   <action id="DatabaseView.DeactivateAction" />
   <action id="DatabaseView.OpenDdlInConsole">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
@@ -123,7 +124,9 @@
   <action id="ServiceView.ShowServices" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="SmartSelect" />
-  <action id="Stop" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="TableResult.GrowSelection" />
   <action id="TableResult.SelectColumn" />
   <action id="ToggleBookmark">
