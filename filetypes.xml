@@ -1,6 +1,12 @@
 <application>
   <component name="FileTypeManager" version="19">
     <extensionMap>
+      <removed_mapping pattern="jest.config" type="JSON" />
+      <removed_mapping pattern=".eslintrc" type="JSON" />
+      <removed_mapping ext="jsb2" type="JSON" />
+      <removed_mapping pattern=".ws-context" type="JSON" />
+      <removed_mapping ext="jsb3" type="JSON" />
+      <removed_mapping pattern=".babelrc" type="JSON" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="xaml" type="XML" />
     </extensionMap>
