@@ -15,7 +15,7 @@
     <mask>*.sql</mask>
     <mask>*.html</mask>
     <mask>*.js</mask>
-    <mask>*.css</mask>
     <mask>*.vue</mask>
+    <mask>*.css</mask>
   </component>
 </application>
