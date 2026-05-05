@@ -28,6 +28,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl subtract" />
   </action>
   <action id="Console.TableResult.ColumnSortAsc" />
+  <action id="Console.TableResult.ColumnSortDesc" />
   <action id="Console.TableResult.EditFilterCriteria">
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
     <keyboard-shortcut first-keystroke="shift ctrl s" />
@@ -71,7 +72,9 @@
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="shift ctrl y" />
   </action>
-  <action id="EditorUnSelectWord" />
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl add" />
   </action>
@@ -102,6 +105,7 @@
   <action id="Markdown.Styling.CreateLink" />
   <action id="MethodHierarchy" />
   <action id="MethodHierarchy.BaseOnThisMethod" />
+  <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
@@ -142,6 +146,7 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UsageFiltering.WriteAccess" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="XDebugger.MoveWatchDown" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
